@@ -1,8 +1,8 @@
 # Neon Drift Arcade
 
-A heavily scaffolded, task-by-task MkDocs Material tutorial for building a first Godot arcade game.
+A heavily scaffolded MkDocs Material tutorial for building a first Godot arcade game, broken into one small task per page.
 
-The pupil-facing guide is broken into eight build tasks, with one task per page. Each page includes:
+The pupil-facing guide is broken into 28 small build tasks, with one task per page. Each page includes:
 
 - a clear goal and checkpoint
 - beginner terminology explanations

@@ -1,5 +1,5 @@
 site_name: Neon Drift Arcade
-site_description: Build a Godot arcade game one focused task at a time.
+site_description: Build a Godot arcade game one small task at a time.
 site_author: Neon Drift Workshop
 
 theme:
@@ -52,15 +52,38 @@ extra_css:
 
 nav:
   - Start here: index.md
-  - Build tasks:
-      - "01 - Project pulse": tasks/01-project-pulse.md
-      - "02 - Player movement": tasks/02-player-movement.md
-      - "03 - The arena": tasks/03-the-arena.md
-      - "04 - Collect the sparks": tasks/04-collect-the-sparks.md
-      - "05 - Enemy pressure": tasks/05-enemy-pressure.md
-      - "06 - Score and survive": tasks/06-score-and-survive.md
-      - "07 - Juice the loop": tasks/07-juice-the-loop.md
-      - "08 - Export the cabinet": tasks/08-export-the-cabinet.md
+  - "Lesson 1: Project Setup":
+      - "1. Create The Project": tasks/01-create-project.md
+      - "2. Make Project Folders": tasks/02-make-folders.md
+      - "3. Create Main Scene": tasks/03-create-main-scene.md
+      - "4. Add A Background": tasks/04-add-background.md
+      - "5. Add The Title": tasks/05-add-title.md
+      - "6. Set The Main Scene": tasks/06-set-main-scene.md
+  - "Lesson 2: Player And Arena":
+      - "7. Make The Player Scene": tasks/07-make-player-scene.md
+      - "8. Draw The Player": tasks/08-draw-player.md
+      - "9. Add Player Collision": tasks/09-add-player-collision.md
+      - "10. Add Player Movement": tasks/10-add-player-script.md
+      - "11. Add Player To Main": tasks/11-add-player-to-main.md
+      - "12. Draw The Arena": tasks/12-draw-arena.md
+      - "13. Add Arena Walls": tasks/13-add-arena-walls.md
+  - "Lesson 3: Sparks And Hunters":
+      - "14. Make A Spark Scene": tasks/14-make-spark-scene.md
+      - "15. Draw The Spark": tasks/15-draw-spark.md
+      - "16. Add Spark Collection": tasks/16-add-spark-script.md
+      - "17. Place Sparks": tasks/17-place-sparks.md
+      - "18. Print Spark Score": tasks/18-print-spark-score.md
+      - "19. Make A Hunter Scene": tasks/19-make-hunter-scene.md
+      - "20. Draw The Hunter": tasks/20-draw-hunter.md
+      - "21. Add Hunter Chase": tasks/21-add-hunter-script.md
+      - "22. Place Hunters": tasks/22-place-hunters.md
+  - "Lesson 4: Score And Finish":
+      - "23. Build The HUD": tasks/23-build-hud.md
+      - "24. Track Score": tasks/24-track-score.md
+      - "25. Add The Timer": tasks/25-add-timer.md
+      - "26. Add Game Over": tasks/26-add-game-over.md
+      - "27. Add Feedback": tasks/27-add-feedback.md
+      - "28. Export The Game": tasks/28-export-game.md
   - Reference:
       - Game loop checklist: reference/game-loop-checklist.md
       - Godot patterns: reference/godot-patterns.md
