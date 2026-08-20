@@ -15,22 +15,22 @@ theme:
     - search.highlight
   palette:
     - scheme: default
-      primary: deep purple
-      accent: lime
+      primary: blue
+      accent: light blue
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
-      primary: deep purple
-      accent: lime
+      primary: blue
+      accent: light blue
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
   font:
     text: Quicksand
     code: Roboto Mono
-  logo: material/gamepad-variant
-  favicon: material/gamepad-variant
+  icon:
+    logo: material/gamepad-variant
 
 plugins:
   - search
