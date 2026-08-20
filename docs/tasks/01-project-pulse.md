@@ -4,7 +4,7 @@
 
 **Checkpoint:** pressing Play opens a dark window with the title `NEON DRIFT`.
 
-![Task 01 scene checkpoint](../assets/images/task-01-project.svg){ .media-frame }
+![Task 01 scene checkpoint](../assets/images/task-01-project.png){ .media-frame }
 
 ## Key Words
 

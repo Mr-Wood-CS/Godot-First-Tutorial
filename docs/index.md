@@ -8,7 +8,7 @@ Every task has its own page. Do not move to the next page until the checkpoint w
 <strong>Finished game:</strong> a 60-second arcade run where the player moves a glowing ship, collects sparks, avoids hunters, sees score and time, hears feedback, and can restart after game over.
 </div>
 
-![Neon Drift finished game overview](assets/images/neon-drift-overview.svg){ .media-frame }
+![Neon Drift finished game overview](assets/images/neon-drift-overview.png){ .media-frame }
 
 ## Before You Start
 

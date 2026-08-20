@@ -4,7 +4,7 @@
 
 **Checkpoint:** the player is framed by a visible border and cannot move beyond the arena.
 
-![Arena layout checkpoint](../assets/images/task-03-arena.svg){ .media-frame }
+![Arena layout checkpoint](../assets/images/task-03-arena.png){ .media-frame }
 
 ## Key Words
 

@@ -4,7 +4,7 @@
 
 **Checkpoint:** the HUD shows score and time, collecting sparks increases score, a hunter ends the run, and the restart button works.
 
-![Score and survive checkpoint](../assets/images/task-06-score.svg){ .media-frame }
+![Score and survive checkpoint](../assets/images/task-06-score.png){ .media-frame }
 
 ## Key Words
 

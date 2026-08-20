@@ -4,7 +4,7 @@
 
 **Checkpoint:** collecting a spark, being hit, and reaching game over each have clear feedback.
 
-![Feedback checkpoint](../assets/images/task-07-juice.svg){ .media-frame }
+![Feedback checkpoint](../assets/images/task-07-juice.png){ .media-frame }
 
 ## Key Words
 

@@ -4,7 +4,7 @@
 
 **Checkpoint:** the ship moves with WASD or arrow keys and cannot leave the window.
 
-![Player movement checkpoint](../assets/images/task-02-player.svg){ .media-frame }
+![Player movement checkpoint](../assets/images/task-02-player.png){ .media-frame }
 
 ## Key Words
 

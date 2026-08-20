@@ -4,7 +4,7 @@
 
 **Checkpoint:** touching a spark removes it and prints its score value in the Output panel.
 
-![Spark collection checkpoint](../assets/images/task-04-spark.svg){ .media-frame }
+![Spark collection checkpoint](../assets/images/task-04-spark.png){ .media-frame }
 
 ## Key Words
 

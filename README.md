@@ -29,4 +29,4 @@ Open the local address printed by MkDocs.
 mkdocs build --strict
 ```
 
-The tutorial uses SVG checkpoint images in `docs/assets/images` and embedded YouTube videos on the task pages.
+The tutorial uses PNG checkpoint images in `docs/assets/images` and embedded YouTube videos on the task pages.

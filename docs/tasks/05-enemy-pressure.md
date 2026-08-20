@@ -4,7 +4,7 @@
 
 **Checkpoint:** a hunter moves toward the player, and touching the player prints `Player hit`.
 
-![Hunter chase checkpoint](../assets/images/task-05-hunter.svg){ .media-frame }
+![Hunter chase checkpoint](../assets/images/task-05-hunter.png){ .media-frame }
 
 ## Key Words
 

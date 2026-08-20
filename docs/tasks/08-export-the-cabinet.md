@@ -4,7 +4,7 @@
 
 **Checkpoint:** the exported game opens, plays, shows game over, and restarts.
 
-![Export checkpoint](../assets/images/task-08-export.svg){ .media-frame }
+![Export checkpoint](../assets/images/task-08-export.png){ .media-frame }
 
 ## Key Words
 
