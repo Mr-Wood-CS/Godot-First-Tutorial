@@ -1,0 +1,41 @@
+:root {
+  --md-text-font: "Space Grotesk";
+  --md-code-font: "JetBrains Mono";
+}
+
+.md-header {
+  background: linear-gradient(115deg, #291047 0%, #5a1f72 54%, #8a2f61 100%);
+}
+
+.md-main__inner {
+  max-width: 54rem;
+}
+
+.md-content h1 {
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.md-content h2 {
+  margin-top: 2.2rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  padding-top: 1rem;
+}
+
+.task-card {
+  border-left: 4px solid #b7e33b;
+  padding: .75rem 1rem;
+  background: var(--md-code-bg-color);
+}
+
+.media-frame {
+  margin: 1rem 0 1.5rem;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.media-frame img,
+.media-frame video {
+  display: block;
+  width: 100%;
+}

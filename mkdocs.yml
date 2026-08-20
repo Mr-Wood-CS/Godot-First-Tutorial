@@ -1,0 +1,69 @@
+site_name: Neon Drift Arcade
+site_description: Build a Godot arcade game one focused task at a time.
+site_author: Neon Drift Workshop
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.footer
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Space Grotesk
+    code: JetBrains Mono
+  logo: material/gamepad-variant
+  favicon: material/gamepad-variant
+
+plugins:
+  - search
+  - mkdocs-video
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Start here: index.md
+  - Build tasks:
+      - "01 - Project pulse": tasks/01-project-pulse.md
+      - "02 - Player movement": tasks/02-player-movement.md
+      - "03 - The arena": tasks/03-the-arena.md
+      - "04 - Collect the sparks": tasks/04-collect-the-sparks.md
+      - "05 - Enemy pressure": tasks/05-enemy-pressure.md
+      - "06 - Score and survive": tasks/06-score-and-survive.md
+      - "07 - Juice the loop": tasks/07-juice-the-loop.md
+      - "08 - Export the cabinet": tasks/08-export-the-cabinet.md
+  - Reference:
+      - Game loop checklist: reference/game-loop-checklist.md
+      - Godot patterns: reference/godot-patterns.md
+
+copyright: Copyright &copy; 2026 Neon Drift Workshop
