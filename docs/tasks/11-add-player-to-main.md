@@ -20,7 +20,7 @@ Place the player inside the game scene.
 5. In the Node dock, open **Groups**.
 6. Add it to a group called `player`.
 
-![Player in game checkpoint](../assets/images/task-02-player.png){ .media-frame }
+![Player in game checkpoint](../assets/images/task-02-player.png)
 
 ## Check
 

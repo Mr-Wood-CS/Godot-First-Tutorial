@@ -27,8 +27,8 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   font:
-    text: Space Grotesk
-    code: JetBrains Mono
+    text: Quicksand
+    code: Roboto Mono
   logo: material/gamepad-variant
   favicon: material/gamepad-variant
 
@@ -46,9 +46,6 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
-
-extra_css:
-  - stylesheets/extra.css
 
 nav:
   - Start here: index.md
@@ -84,8 +81,4 @@ nav:
       - "26. Add Game Over": tasks/26-add-game-over.md
       - "27. Add Feedback": tasks/27-add-feedback.md
       - "28. Export The Game": tasks/28-export-game.md
-  - Reference:
-      - Game loop checklist: reference/game-loop-checklist.md
-      - Godot patterns: reference/godot-patterns.md
-
 copyright: Copyright &copy; 2026 Neon Drift Workshop

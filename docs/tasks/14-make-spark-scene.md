@@ -6,7 +6,7 @@ Create a collectible spark.
 
 ## Watch First
 
-<iframe class="video-frame" src="https://www.youtube.com/embed/hWIiYhfP-PE" title="YouTube video: Godot signals tutorial" allowfullscreen></iframe>
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/hWIiYhfP-PE" title="YouTube video: Godot signals tutorial" allowfullscreen></iframe>
 
 ## Key Words
 

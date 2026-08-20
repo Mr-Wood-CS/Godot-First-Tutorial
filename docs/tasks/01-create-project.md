@@ -6,7 +6,7 @@ Make a new Godot project called `NeonDrift`.
 
 ## Watch First
 
-<iframe class="video-frame" src="https://www.youtube.com/embed/GwCiGixlqiU" title="YouTube video: Your First 2D Game From Zero with Godot 4" allowfullscreen></iframe>
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/GwCiGixlqiU" title="YouTube video: Your First 2D Game From Zero with Godot 4" allowfullscreen></iframe>
 
 ## Key Words
 
@@ -24,7 +24,7 @@ Make a new Godot project called `NeonDrift`.
 5. Set the renderer to **Compatibility**.
 6. Click **Create & Edit**.
 
-![Neon Drift overview](../assets/images/neon-drift-overview.png){ .media-frame }
+![Neon Drift overview](../assets/images/neon-drift-overview.png)
 
 ## Check
 

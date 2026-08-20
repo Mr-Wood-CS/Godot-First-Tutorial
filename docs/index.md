@@ -6,7 +6,7 @@ Build a small top-down arcade game in Godot 4. The style matches the Scratch arc
 By the end, your game will have a player ship, an arena, sparks to collect, hunters to avoid, score, time, game over, feedback, and an exported build.
 </div>
 
-![Neon Drift finished game overview](assets/images/neon-drift-overview.png){ .media-frame }
+![Neon Drift finished game overview](assets/images/neon-drift-overview.png)
 
 ## What You Will Make
 

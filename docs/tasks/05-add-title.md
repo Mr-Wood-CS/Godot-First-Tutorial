@@ -20,7 +20,7 @@ Show the game title on screen.
 5. Move the label near the centre of the screen.
 6. Make the font larger if your Godot version shows **Theme Overrides > Font Sizes**.
 
-![Title checkpoint](../assets/images/task-01-project.png){ .media-frame }
+![Title checkpoint](../assets/images/task-01-project.png)
 
 ## Check
 

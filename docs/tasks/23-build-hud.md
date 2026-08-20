@@ -6,7 +6,7 @@ Add score, time, and game-over text to the screen.
 
 ## Watch First
 
-<iframe class="video-frame" src="https://www.youtube.com/embed/GwCiGixlqiU" title="YouTube video: Your First 2D Game From Zero with Godot 4" allowfullscreen></iframe>
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/GwCiGixlqiU" title="YouTube video: Your First 2D Game From Zero with Godot 4" allowfullscreen></iframe>
 
 ## Key Words
 
@@ -39,7 +39,7 @@ RestartButton
 7. Set `RestartButton` text to `RESTART`.
 8. Hide `GameOverPanel`.
 
-![HUD checkpoint](../assets/images/task-06-score.png){ .media-frame }
+![HUD checkpoint](../assets/images/task-06-score.png)
 
 ## Check
 

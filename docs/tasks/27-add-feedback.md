@@ -6,7 +6,7 @@ Make collecting a spark feel clearer.
 
 ## Watch First
 
-<iframe class="video-frame" src="https://www.youtube.com/embed/04TB9gxz-uM" title="YouTube video: How to Tween in Godot 4" allowfullscreen></iframe>
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/04TB9gxz-uM" title="YouTube video: How to Tween in Godot 4" allowfullscreen></iframe>
 
 ## Key Words
 
@@ -29,7 +29,7 @@ func pop() -> void:
     tween.tween_callback(queue_free)
 ```
 
-![Feedback checkpoint](../assets/images/task-07-juice.png){ .media-frame }
+![Feedback checkpoint](../assets/images/task-07-juice.png)
 
 ## Check
 

@@ -22,7 +22,7 @@ Add a dark background to the game window.
 6. In the Inspector, set its colour to very dark blue or black.
 7. Set its anchors to **Full Rect**.
 
-![Project background checkpoint](../assets/images/task-01-project.png){ .media-frame }
+![Project background checkpoint](../assets/images/task-01-project.png)
 
 ## Check
 

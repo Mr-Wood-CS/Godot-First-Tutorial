@@ -6,7 +6,7 @@ Make a build someone else can play without opening Godot.
 
 ## Watch First
 
-<iframe class="video-frame" src="https://www.youtube.com/embed/WoXtLBuK11Y" title="YouTube video: Exporting for Windows in Godot" allowfullscreen></iframe>
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/WoXtLBuK11Y" title="YouTube video: Exporting for Windows in Godot" allowfullscreen></iframe>
 
 ## Key Words
 
@@ -26,7 +26,7 @@ Make a build someone else can play without opening Godot.
 6. Export into a `builds` folder.
 7. Open the exported game and test it.
 
-![Export checkpoint](../assets/images/task-08-export.png){ .media-frame }
+![Export checkpoint](../assets/images/task-08-export.png)
 
 ## Check
 

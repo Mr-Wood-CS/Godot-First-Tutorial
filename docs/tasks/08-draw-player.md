@@ -26,7 +26,7 @@ Make the player visible.
 
 5. Set the colour to a bright arcade colour.
 
-![Player checkpoint](../assets/images/task-02-player.png){ .media-frame }
+![Player checkpoint](../assets/images/task-02-player.png)
 
 ## Check
 

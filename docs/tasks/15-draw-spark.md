@@ -29,7 +29,7 @@ Make the spark visible and touchable.
 6. Set its shape to **New CircleShape2D**.
 7. Set the radius to about `14`.
 
-![Spark checkpoint](../assets/images/task-04-spark.png){ .media-frame }
+![Spark checkpoint](../assets/images/task-04-spark.png)
 
 ## Check
 

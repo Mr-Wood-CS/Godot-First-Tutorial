@@ -20,7 +20,7 @@ Make the hunter visible and touchable.
 5. Set the shape to **New CircleShape2D**.
 6. Set the radius to about `18`.
 
-![Hunter checkpoint](../assets/images/task-05-hunter.png){ .media-frame }
+![Hunter checkpoint](../assets/images/task-05-hunter.png)
 
 ## Check
 

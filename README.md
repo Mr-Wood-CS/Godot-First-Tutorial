@@ -9,8 +9,7 @@ The pupil-facing guide is broken into 28 small build tasks, with one task per pa
 - embedded YouTube videos
 - image checkpoints
 - numbered Godot editor steps
-- code translations
-- troubleshooting tables
+- short checks before moving on
 
 ## Run locally
 

@@ -35,7 +35,7 @@ func _draw() -> void:
     draw_rect(Rect2(16, 16, 1248, 688), border_colour, false, 4.0)
 ```
 
-![Arena checkpoint](../assets/images/task-03-arena.png){ .media-frame }
+![Arena checkpoint](../assets/images/task-03-arena.png)
 
 ## Check
 
