@@ -18,7 +18,7 @@
 
 ## Video
 
-Watch the task clip before you start. Your teacher can replace this clip with a classroom recording later.
+Watch the task clip before you start.
 
 ![Task 08 video clip](../assets/videos/task-08-export-the-cabinet.gif){ .media-frame }
 

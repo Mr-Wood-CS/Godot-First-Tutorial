@@ -1,6 +1,6 @@
 # Neon Drift Arcade
 
-Build a tiny top-down arcade game in Godot 4. This guide is written for pupils and teachers who have never used Godot before.
+Build a tiny top-down arcade game in Godot 4. This guide is written for pupils who have never used Godot before.
 
 Every task has its own page. Do not move to the next page until the checkpoint works.
 
@@ -28,19 +28,19 @@ Godot is a game engine. A game engine is software that helps you build games wit
 
 1. Open one task page.
 2. Read the goal and key words.
-3. Watch the short video or teacher demonstration.
+3. Watch the short task video.
 4. Complete the numbered steps.
 5. Press Play and check the checkpoint.
 6. Only then move to the next task.
 
-!!! tip "Teacher rhythm"
-    Model the first two or three clicks slowly. Pupils should say what they expect to happen before pressing Play. This turns errors into debugging practice instead of panic.
+!!! tip "Build rhythm"
+    Work slowly through the first two or three clicks. Say what you expect to happen before pressing Play. This turns errors into debugging practice instead of panic.
 
 ## Video Guide
 
-Each task page includes a short animated lesson clip. You can replace these with teacher-made screen recordings later. Short clips work best: 30 to 90 seconds each.
+Each task page includes a short animated task clip.
 
-| Task | Suggested clip |
+| Task | Clip shows |
 | --- | --- |
 | 01 | Creating a Godot project and saving the main scene |
 | 02 | Adding a player scene and attaching a movement script |
@@ -51,7 +51,7 @@ Each task page includes a short animated lesson clip. You can replace these with
 | 07 | Adding sound and visual feedback |
 | 08 | Exporting a playable build |
 
-The included clips live in `docs/assets/videos/`.
+The clips live in `docs/assets/videos/`.
 
 ## The Route
 

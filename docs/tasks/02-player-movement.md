@@ -18,7 +18,7 @@
 
 ## Video
 
-Watch the task clip before you start. Your teacher can replace this clip with a classroom recording later.
+Watch the task clip before you start.
 
 ![Task 02 video clip](../assets/videos/task-02-player-movement.gif){ .media-frame }
 

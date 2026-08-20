@@ -18,7 +18,7 @@
 
 ## Video
 
-Watch the task clip before you start. Your teacher can replace this clip with a classroom recording later.
+Watch the task clip before you start.
 
 ![Task 06 video clip](../assets/videos/task-06-score-and-survive.gif){ .media-frame }
 

@@ -18,7 +18,7 @@
 
 ## Video
 
-Watch the task clip before you start. Your teacher can replace this clip with a classroom recording later.
+Watch the task clip before you start.
 
 ![Task 01 video clip](../assets/videos/task-01-project-pulse.gif){ .media-frame }
 
@@ -33,7 +33,7 @@ Watch the task clip before you start. Your teacher can replace this clip with a 
 
 ### What This Means
 
-The renderer controls how Godot draws the game. Compatibility is a sensible classroom choice because it works on more school computers.
+The renderer controls how Godot draws the game. Compatibility is a sensible beginner choice because it works on more computers.
 
 ## 2. Make Folders
 

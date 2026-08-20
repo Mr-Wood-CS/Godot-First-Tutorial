@@ -18,7 +18,7 @@
 
 ## Video
 
-Watch the task clip before you start. Your teacher can replace this clip with a classroom recording later.
+Watch the task clip before you start.
 
 ![Task 05 video clip](../assets/videos/task-05-enemy-pressure.gif){ .media-frame }
 
