@@ -4,6 +4,8 @@
 
 **Checkpoint:** the exported game opens, plays, shows game over, and restarts.
 
+![Export checkpoint](../assets/images/task-08-export.svg){ .media-frame }
+
 ## Key Words
 
 | Word | Meaning |
@@ -16,13 +18,9 @@
 
 ## Video
 
-Teacher clip to record: set window settings, open the export menu, export a build, close Godot, and launch the build.
+Watch the task clip before you start. Your teacher can replace this clip with a classroom recording later.
 
-```html
-<!-- Optional local video once recorded:
-<video controls width="100%" src="../assets/videos/task-08-export-the-cabinet.mp4"></video>
--->
-```
+![Task 08 video clip](../assets/videos/task-08-export-the-cabinet.gif){ .media-frame }
 
 ## 1. Check The Main Scene
 

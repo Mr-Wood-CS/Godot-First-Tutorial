@@ -18,13 +18,9 @@
 
 ## Video
 
-Teacher clip to record: build the HUD nodes, paste the complete `Main` script, collect a spark, hit a hunter, and restart.
+Watch the task clip before you start. Your teacher can replace this clip with a classroom recording later.
 
-```html
-<!-- Optional local video once recorded:
-<video controls width="100%" src="../assets/videos/task-06-score-and-survive.mp4"></video>
--->
-```
+![Task 06 video clip](../assets/videos/task-06-score-and-survive.gif){ .media-frame }
 
 ## 1. Build The HUD
 

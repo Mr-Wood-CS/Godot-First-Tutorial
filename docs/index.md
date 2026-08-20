@@ -38,7 +38,7 @@ Godot is a game engine. A game engine is software that helps you build games wit
 
 ## Video Guide
 
-Use these video slots for teacher-made clips. Short clips work best: 30 to 90 seconds each.
+Each task page includes a short animated lesson clip. You can replace these with teacher-made screen recordings later. Short clips work best: 30 to 90 seconds each.
 
 | Task | Suggested clip |
 | --- | --- |
@@ -51,7 +51,7 @@ Use these video slots for teacher-made clips. Short clips work best: 30 to 90 se
 | 07 | Adding sound and visual feedback |
 | 08 | Exporting a playable build |
 
-You can place your own videos in `docs/assets/videos/` and embed them on each task page.
+The included clips live in `docs/assets/videos/`.
 
 ## The Route
 

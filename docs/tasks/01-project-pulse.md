@@ -18,13 +18,9 @@
 
 ## Video
 
-Teacher clip to record: create the project, add a `Node2D`, add a title label, save the scene, and press Play.
+Watch the task clip before you start. Your teacher can replace this clip with a classroom recording later.
 
-```html
-<!-- Optional local video once recorded:
-<video controls width="100%" src="../assets/videos/task-01-project-pulse.mp4"></video>
--->
-```
+![Task 01 video clip](../assets/videos/task-01-project-pulse.gif){ .media-frame }
 
 ## 1. Make The Project
 

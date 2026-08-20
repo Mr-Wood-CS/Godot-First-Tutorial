@@ -4,6 +4,8 @@
 
 **Checkpoint:** a hunter moves toward the player, and touching the player prints `Player hit`.
 
+![Hunter chase checkpoint](../assets/images/task-05-hunter.svg){ .media-frame }
+
 ## Key Words
 
 | Word | Meaning |
@@ -16,13 +18,9 @@
 
 ## Video
 
-Teacher clip to record: create `Hunter.tscn`, add its script, place one hunter, test the chase, then add two more.
+Watch the task clip before you start. Your teacher can replace this clip with a classroom recording later.
 
-```html
-<!-- Optional local video once recorded:
-<video controls width="100%" src="../assets/videos/task-05-enemy-pressure.mp4"></video>
--->
-```
+![Task 05 video clip](../assets/videos/task-05-enemy-pressure.gif){ .media-frame }
 
 ## 1. Make A Hunter Scene
 

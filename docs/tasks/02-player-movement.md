@@ -18,13 +18,9 @@
 
 ## Video
 
-Teacher clip to record: make `Player.tscn`, add a visible shape, add a collision shape, attach the script, then test movement.
+Watch the task clip before you start. Your teacher can replace this clip with a classroom recording later.
 
-```html
-<!-- Optional local video once recorded:
-<video controls width="100%" src="../assets/videos/task-02-player-movement.mp4"></video>
--->
-```
+![Task 02 video clip](../assets/videos/task-02-player-movement.gif){ .media-frame }
 
 ## 1. Make A Player Scene
 

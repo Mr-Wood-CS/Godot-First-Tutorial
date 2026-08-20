@@ -18,13 +18,9 @@
 
 ## Video
 
-Teacher clip to record: add an arena drawing node, paste the grid script, make wall colliders, and test each wall.
+Watch the task clip before you start. Your teacher can replace this clip with a classroom recording later.
 
-```html
-<!-- Optional local video once recorded:
-<video controls width="100%" src="../assets/videos/task-03-the-arena.mp4"></video>
--->
-```
+![Task 03 video clip](../assets/videos/task-03-the-arena.gif){ .media-frame }
 
 ## 1. Add An Arena Drawing Node
 

@@ -18,13 +18,9 @@
 
 ## Video
 
-Teacher clip to record: add a spark pop tween, add a particle burst, add one sound effect, then compare before and after.
+Watch the task clip before you start. Your teacher can replace this clip with a classroom recording later.
 
-```html
-<!-- Optional local video once recorded:
-<video controls width="100%" src="../assets/videos/task-07-juice-the-loop.mp4"></video>
--->
-```
+![Task 07 video clip](../assets/videos/task-07-juice-the-loop.gif){ .media-frame }
 
 ## 1. Improve Spark Collection
 

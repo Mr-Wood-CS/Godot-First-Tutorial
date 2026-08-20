@@ -18,13 +18,9 @@
 
 ## Video
 
-Teacher clip to record: create the spark scene, connect `body_entered`, add the player group, then collect a spark.
+Watch the task clip before you start. Your teacher can replace this clip with a classroom recording later.
 
-```html
-<!-- Optional local video once recorded:
-<video controls width="100%" src="../assets/videos/task-04-collect-the-sparks.mp4"></video>
--->
-```
+![Task 04 video clip](../assets/videos/task-04-collect-the-sparks.gif){ .media-frame }
 
 ## 1. Make A Spark Scene
 
