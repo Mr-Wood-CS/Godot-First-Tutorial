@@ -38,9 +38,9 @@ Godot is a game engine. A game engine is software that helps you build games wit
 
 ## Video Guide
 
-Each task page includes a short animated task clip.
+Each task page includes an embedded YouTube video in the same style as the Scratch arcade tutorial.
 
-| Task | Clip shows |
+| Task | Video focus |
 | --- | --- |
 | 01 | Creating a Godot project and saving the main scene |
 | 02 | Adding a player scene and attaching a movement script |
@@ -51,7 +51,7 @@ Each task page includes a short animated task clip.
 | 07 | Adding sound and visual feedback |
 | 08 | Exporting a playable build |
 
-The clips live in `docs/assets/videos/`.
+The videos are embedded from YouTube on each task page.
 
 ## The Route
 

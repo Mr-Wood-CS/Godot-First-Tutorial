@@ -18,9 +18,9 @@
 
 ## Video
 
-Watch the task clip before you start.
+Watch first.
 
-![Task 07 video clip](../assets/videos/task-07-juice-the-loop.gif){ .media-frame }
+<iframe class="video-frame" src="https://www.youtube.com/embed/04TB9gxz-uM" title="YouTube video: How to Tween in Godot 4" allowfullscreen></iframe>
 
 ## 1. Improve Spark Collection
 

@@ -18,9 +18,9 @@
 
 ## Video
 
-Watch the task clip before you start.
+Watch first.
 
-![Task 05 video clip](../assets/videos/task-05-enemy-pressure.gif){ .media-frame }
+<iframe class="video-frame" src="https://www.youtube.com/embed/GwCiGixlqiU" title="YouTube video: Your First 2D Game From Zero with Godot 4" allowfullscreen></iframe>
 
 ## 1. Make A Hunter Scene
 

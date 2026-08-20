@@ -18,9 +18,9 @@
 
 ## Video
 
-Watch the task clip before you start.
+Watch first.
 
-![Task 02 video clip](../assets/videos/task-02-player-movement.gif){ .media-frame }
+<iframe class="video-frame" src="https://www.youtube.com/embed/CQ36QANa44M" title="YouTube video: Godot 4 top-down movement" allowfullscreen></iframe>
 
 ## 1. Make A Player Scene
 

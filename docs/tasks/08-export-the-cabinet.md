@@ -18,9 +18,9 @@
 
 ## Video
 
-Watch the task clip before you start.
+Watch first.
 
-![Task 08 video clip](../assets/videos/task-08-export-the-cabinet.gif){ .media-frame }
+<iframe class="video-frame" src="https://www.youtube.com/embed/WoXtLBuK11Y" title="YouTube video: Exporting for Windows in Godot" allowfullscreen></iframe>
 
 ## 1. Check The Main Scene
 

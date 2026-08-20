@@ -18,9 +18,9 @@
 
 ## Video
 
-Watch the task clip before you start.
+Watch first.
 
-![Task 04 video clip](../assets/videos/task-04-collect-the-sparks.gif){ .media-frame }
+<iframe class="video-frame" src="https://www.youtube.com/embed/hWIiYhfP-PE" title="YouTube video: Godot signals tutorial" allowfullscreen></iframe>
 
 ## 1. Make A Spark Scene
 

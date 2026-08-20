@@ -6,7 +6,7 @@ The pupil-facing guide is broken into eight build tasks, with one task per page.
 
 - a clear goal and checkpoint
 - beginner terminology explanations
-- local animated task clips
+- embedded YouTube videos
 - image checkpoints
 - numbered Godot editor steps
 - code translations
@@ -29,4 +29,4 @@ Open the local address printed by MkDocs.
 mkdocs build --strict
 ```
 
-The tutorial uses SVG checkpoint images in `docs/assets/images` and animated task clips in `docs/assets/videos`.
+The tutorial uses SVG checkpoint images in `docs/assets/images` and embedded YouTube videos on the task pages.
