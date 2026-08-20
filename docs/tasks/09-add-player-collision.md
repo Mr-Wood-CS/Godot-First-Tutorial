@@ -2,15 +2,7 @@
 
 ## Goal
 
-Give the player an invisible shape Godot can use for touching walls, sparks, and enemies.
-
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Collision | The invisible shape Godot uses to know when things touch. |
-| CollisionShape2D | A node that stores a collision shape. |
-| CircleShape2D | A round collision shape. |
+Give the player an invisible touch shape.
 
 ## Do This
 
@@ -19,7 +11,7 @@ Give the player an invisible shape Godot can use for touching walls, sparks, and
 3. Add a `CollisionShape2D`.
 4. Select the `CollisionShape2D`.
 5. Set **Shape** to **New CircleShape2D**.
-6. Set the radius to about `18`.
+6. Set the radius to `18`.
 
 ## Check
 

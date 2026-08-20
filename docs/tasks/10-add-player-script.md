@@ -4,14 +4,6 @@
 
 Make the player move with the keyboard.
 
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Script | Code attached to a node. |
-| Velocity | Speed and direction together. |
-| Input | Keyboard, mouse, controller, or touch actions. |
-
 ## Do This
 
 1. Select the `Player` root node.

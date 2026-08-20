@@ -2,19 +2,11 @@
 
 ## Goal
 
-Make a build someone else can play without opening Godot.
+Make a build that opens without Godot.
 
 ## Watch First
 
 <iframe width="100%" height="360" src="https://www.youtube.com/embed/WoXtLBuK11Y" title="YouTube video: Exporting for Windows in Godot" allowfullscreen></iframe>
-
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Export | Build the game into files that run outside the editor. |
-| Preset | A saved group of export settings for one platform. |
-| Build | The playable exported game. |
 
 ## Do This
 
@@ -22,7 +14,7 @@ Make a build someone else can play without opening Godot.
 2. Check the main scene is `res://scenes/Main.tscn`.
 3. Set the window size to `1280 x 720`.
 4. Open **Project > Export**.
-5. Add a preset for your platform.
+5. Add a **Windows Desktop** preset.
 6. Export into a `builds` folder.
 7. Open the exported game and test it.
 

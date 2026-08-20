@@ -4,13 +4,6 @@
 
 Make `Main` listen when a spark is collected.
 
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Connect | Link a signal to a function. |
-| Function | A named set of code instructions. |
-
 ## Do This
 
 1. Open `scripts/main.gd`.

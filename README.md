@@ -2,14 +2,14 @@
 
 A heavily scaffolded MkDocs Material tutorial for building a first Godot arcade game, broken into one small task per page.
 
-The pupil-facing guide is broken into 28 small build tasks, with one task per page. Each page includes:
+The guide is broken into 28 small build tasks, with one task per page. Each page includes:
 
 - a clear goal and checkpoint
 - beginner terminology explanations
-- embedded YouTube videos
+- YouTube videos
 - image checkpoints
 - numbered Godot editor steps
-- short checks before moving on
+- short checks
 
 ## Run locally
 
@@ -28,4 +28,4 @@ Open the local address printed by MkDocs.
 mkdocs build --strict
 ```
 
-The tutorial uses PNG checkpoint images in `docs/assets/images` and embedded YouTube videos on the task pages.
+The tutorial uses PNG checkpoint images in `docs/assets/images` and YouTube videos on the task pages.

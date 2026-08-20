@@ -4,13 +4,6 @@
 
 Make the player visible.
 
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Polygon2D | A node that draws a custom 2D shape. |
-| Point | One corner of a polygon shape. |
-
 ## Do This
 
 1. Open `scenes/Player.tscn`.

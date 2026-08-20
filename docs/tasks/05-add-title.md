@@ -4,13 +4,6 @@
 
 Show the game title on screen.
 
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Label | A node that shows text. |
-| Text property | The setting that controls what a label says. |
-
 ## Do This
 
 1. Right-click `CanvasLayer`.
@@ -18,7 +11,8 @@ Show the game title on screen.
 3. Select the `Label`.
 4. Set **Text** to `NEON DRIFT`.
 5. Move the label near the centre of the screen.
-6. Make the font larger if your Godot version shows **Theme Overrides > Font Sizes**.
+6. Open **Theme Overrides > Font Sizes**.
+7. Set the font size to `48`.
 
 ![Title checkpoint](../assets/images/task-01-project.png)
 

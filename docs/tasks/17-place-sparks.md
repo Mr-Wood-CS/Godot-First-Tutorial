@@ -2,14 +2,7 @@
 
 ## Goal
 
-Put collectible sparks around the arena.
-
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Duplicate | Make another copy of a node. |
-| Group | A label scripts can use to find nodes. |
+Put collectible sparks in the arena.
 
 ## Do This
 
@@ -18,7 +11,7 @@ Put collectible sparks around the arena.
 3. Put the spark inside the arena.
 4. Add it to a group called `spark`.
 5. Duplicate it until you have six sparks.
-6. Spread them around the arena.
+6. Put each spark in a different place.
 
 ## Check
 

@@ -1,9 +1,9 @@
 # Neon Drift Arcade
 
-Build a small top-down arcade game in Godot 4. The style matches the Scratch arcade project: one small task per page, with a clear goal, short steps, and a check before moving on.
+Build a small top-down arcade game in Godot 4. The style matches the Scratch arcade project: one small task per page, with a clear goal, short steps, and a check.
 
 <div class="task-card">
-By the end, your game will have a player ship, an arena, sparks to collect, hunters to avoid, score, time, game over, feedback, and an exported build.
+By the end, the game will have a player ship, an arena, sparks to collect, hunters to avoid, score, time, game over, feedback, and an exported build.
 </div>
 
 ![Neon Drift finished game overview](assets/images/neon-drift-overview.png)
@@ -30,20 +30,20 @@ By the end, your game will have a player ship, an arena, sparks to collect, hunt
 1. Open one task page.
 2. Read the **Goal**.
 3. Do only the steps on that page.
-4. Use the **Key Words** table if a Godot word is new.
+4. Use the word table when a Godot word is new.
 5. Run the project when the page asks you to.
-6. Move on only when the **Check** works.
+6. Move on when the **Check** works.
 
 ## Key Godot Words
 
 | Word | Meaning |
 | --- | --- |
 | Project | The folder that stores one game. |
-| Scene | A saved object or screen. |
+| Scene | A saved game object. |
 | Node | One building block inside a scene. |
 | Script | Code attached to a node. |
 | Inspector | The panel where you change settings for a selected node. |
-| FileSystem | The panel that shows files inside your project. |
+| FileSystem | The panel that shows project files. |
 
 ## Start
 

@@ -2,14 +2,7 @@
 
 ## Goal
 
-Draw a clear play area around the game.
-
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Arena | The area where the game action happens. |
-| `_draw()` | A Godot function used to draw lines and shapes. |
+Draw a clear game area.
 
 ## Do This
 

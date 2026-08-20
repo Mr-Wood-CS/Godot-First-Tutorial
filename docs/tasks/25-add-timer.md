@@ -4,13 +4,6 @@
 
 Make the time count down.
 
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Timer | A clock that counts time. |
-| `delta` | The time since the last frame. |
-
 ## Do This
 
 1. Open `scripts/main.gd`.

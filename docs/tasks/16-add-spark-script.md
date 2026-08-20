@@ -4,14 +4,6 @@
 
 Make the spark disappear when the player touches it.
 
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Signal | A message one node sends when something happens. |
-| Emit | Send a signal. |
-| `queue_free()` | Safely remove a node from the game. |
-
 ## Do This
 
 1. Select the `Spark` root node.

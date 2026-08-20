@@ -4,14 +4,6 @@
 
 Create the first scene the game will run.
 
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Scene | A saved collection of nodes. |
-| Node | A building block in Godot. |
-| Root node | The top node in a scene. |
-
 ## Do This
 
 1. Click **2D Scene**.

@@ -4,13 +4,6 @@
 
 Make collecting sparks increase the score.
 
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Variable | A named value that can change. |
-| Score | Points earned by the player. |
-
 ## Do This
 
 1. Open `scripts/main.gd`.

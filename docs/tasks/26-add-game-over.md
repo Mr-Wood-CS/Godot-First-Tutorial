@@ -4,13 +4,6 @@
 
 End the run when a hunter touches the player.
 
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Game over | The state when the run has ended. |
-| `running` | A variable that says whether the run is still active. |
-
 ## Do This
 
 1. Open `scripts/main.gd`.

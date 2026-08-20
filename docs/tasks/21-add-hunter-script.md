@@ -4,13 +4,6 @@
 
 Make the hunter chase the player.
 
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Target | The object an enemy follows. |
-| `direction_to()` | Finds the direction from one position to another. |
-
 ## Do This
 
 1. Select the `Hunter` root node.

@@ -4,13 +4,6 @@
 
 Make folders so the project files stay organised.
 
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| FileSystem | The dock that shows files inside the Godot project. |
-| Folder | A place to group related files. |
-
 ## Do This
 
 1. Find the **FileSystem** dock.

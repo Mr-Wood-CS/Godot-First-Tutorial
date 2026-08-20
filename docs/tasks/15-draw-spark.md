@@ -4,13 +4,6 @@
 
 Make the spark visible and touchable.
 
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Diamond | A four-point shape used for the spark. |
-| Monitoring | Area2D checking whether bodies enter it. |
-
 ## Do This
 
 1. Open `scenes/Spark.tscn`.
@@ -24,10 +17,10 @@ Make the spark visible and touchable.
 (-12, 0)
 ```
 
-4. Set the colour to yellow or lime.
+4. Set the colour to yellow.
 5. Add a `CollisionShape2D`.
 6. Set its shape to **New CircleShape2D**.
-7. Set the radius to about `14`.
+7. Set the radius to `14`.
 
 ![Spark checkpoint](../assets/images/task-04-spark.png)
 

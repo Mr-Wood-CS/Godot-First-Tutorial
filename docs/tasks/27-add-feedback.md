@@ -2,18 +2,11 @@
 
 ## Goal
 
-Make collecting a spark feel clearer.
+Make the spark pop when collected.
 
 ## Watch First
 
 <iframe width="100%" height="360" src="https://www.youtube.com/embed/04TB9gxz-uM" title="YouTube video: How to Tween in Godot 4" allowfullscreen></iframe>
-
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Feedback | A sound or visual effect that tells the player what happened. |
-| Tween | A small animation made by code. |
 
 ## Do This
 

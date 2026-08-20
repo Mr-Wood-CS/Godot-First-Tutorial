@@ -4,13 +4,6 @@
 
 Place the player inside the game scene.
 
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| Instance | A copy of a scene placed inside another scene. |
-| Group | A label added to a node so other scripts can recognise it. |
-
 ## Do This
 
 1. Open `scenes/Main.tscn`.

@@ -6,14 +6,7 @@ Add score, time, and game-over text to the screen.
 
 ## Watch First
 
-<iframe width="100%" height="360" src="https://www.youtube.com/embed/GwCiGixlqiU" title="YouTube video: Your First 2D Game From Zero with Godot 4" allowfullscreen></iframe>
-
-## Key Words
-
-| Word | Meaning |
-| --- | --- |
-| HUD | Heads-up display. Text shown over the game. |
-| Panel | A UI box used to group text and buttons. |
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/GwCiGixlqiU" title="YouTube video: Godot 4 first 2D game" allowfullscreen></iframe>
 
 ## Do This
 
