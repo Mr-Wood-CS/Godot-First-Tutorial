@@ -16,11 +16,11 @@ var score := 0
 var time_left := 60.0
 var running := true
 
-@onready var score_label: Label = $CanvasLayer/ScoreLabel
-@onready var time_label: Label = $CanvasLayer/TimeLabel
-@onready var game_over_panel: Panel = $CanvasLayer/GameOverPanel
-@onready var game_over_label: Label = $CanvasLayer/GameOverPanel/GameOverLabel
-@onready var restart_button: Button = $CanvasLayer/GameOverPanel/RestartButton
+@onready var score_label: Label = $CanvasLayer/HUD/ScoreLabel
+@onready var time_label: Label = $CanvasLayer/HUD/TimeLabel
+@onready var game_over_panel: Panel = $CanvasLayer/HUD/GameOverPanel
+@onready var game_over_label: Label = $CanvasLayer/HUD/GameOverPanel/GameOverLabel
+@onready var restart_button: Button = $CanvasLayer/HUD/GameOverPanel/RestartButton
 
 func _ready() -> void:
     game_over_panel.visible = false
