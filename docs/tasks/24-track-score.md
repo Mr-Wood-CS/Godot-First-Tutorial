@@ -6,7 +6,7 @@ Make collecting sparks increase the score.
 
 ## Do This
 
-1. Open `scripts/main.gd`.
+1. In the FileSystem panel, double-click `scripts/main.gd`.
 2. Replace it with this code:
 
 ```gdscript
@@ -48,4 +48,4 @@ func _on_restart_pressed() -> void:
 
 ## Check
 
-Press Play and collect a spark. The score should increase.
+Press **F5** and collect a spark. The score should change from `SCORE 00000` to `SCORE 00010`.

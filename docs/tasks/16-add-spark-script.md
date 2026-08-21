@@ -7,8 +7,8 @@ Make the spark disappear when the player touches it.
 ## Do This
 
 1. Select the `Spark` root node.
-2. Attach a new script called `scripts/spark.gd`.
-3. Add this code:
+2. Click **Attach Script**, set the path to `res://scripts/spark.gd`, and click **Create**.
+3. Replace the starter code with this:
 
 ```gdscript
 extends Area2D

@@ -36,4 +36,4 @@ func end_run(message: String) -> void:
 
 ## Check
 
-Press Play. The timer should count down.
+Press **F5**. The time at the top-right should count down. After 60 seconds, a panel saying `TIME UP` should appear.

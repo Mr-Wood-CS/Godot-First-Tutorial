@@ -23,4 +23,4 @@ func _on_player_hit() -> void:
 
 ## Check
 
-Press Play and let a hunter touch the player. The game-over panel should appear.
+Press **F5** and let a hunter touch the player. A panel saying `GAME OVER` should appear. Click **RESTART**; the scene should start again.

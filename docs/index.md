@@ -30,7 +30,7 @@ By the end, the game will have a player ship, an arena, sparks to collect, hunte
 1. Open one task page.
 2. Read the **Goal**.
 3. Do only the steps on that page.
-4. Use the word table when a Godot word is new.
+4. New Godot words are explained on the page before you need them.
 5. Run the project when the page asks you to.
 6. Move on when the **Check** works.
 
@@ -39,11 +39,12 @@ By the end, the game will have a player ship, an arena, sparks to collect, hunte
 | Word | Meaning |
 | --- | --- |
 | Project | The folder that stores one game. |
-| Scene | A saved game object. |
-| Node | One building block inside a scene. |
+| Scene | One saved part of a game, such as a level, player, or collectible. |
+| Node | One building block in a scene. Each node has one job. |
 | Script | Code attached to a node. |
-| Inspector | The panel where you change settings for a selected node. |
-| FileSystem | The panel that shows project files. |
+| Scene panel | The list at the top-left that shows the nodes in the open scene. |
+| Inspector panel | The area on the right where you change the selected node's settings. |
+| FileSystem panel | The area at the bottom-left that shows the files and folders in the project. |
 
 ## Start
 

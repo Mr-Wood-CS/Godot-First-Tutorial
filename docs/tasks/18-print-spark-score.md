@@ -6,8 +6,12 @@ Make `Main` listen when a spark is collected.
 
 ## Do This
 
-1. Open `scripts/main.gd`.
-2. Replace it with this code:
+The `Main` scene does not have a script yet, so make one now.
+
+1. Open `scenes/Main.tscn` and select the `Main` root node.
+2. Click **Attach Script** above the Scene panel.
+3. Set the path to `res://scripts/main.gd` and click **Create**.
+4. Replace the starter code with this:
 
 ```gdscript
 extends Node2D
@@ -23,4 +27,4 @@ func _on_spark_collected(value: int) -> void:
 
 ## Check
 
-Press Play and collect a spark. The Output panel should print the spark value.
+Press **F5** and collect a spark. Close the game window, then look at the **Output** panel along the bottom of Godot. It should show `Collected spark worth 10 points`.

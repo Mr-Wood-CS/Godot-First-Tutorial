@@ -6,11 +6,11 @@ Create an enemy scene.
 
 ## Do This
 
-1. Create a new scene.
+1. Choose **Scene > New Scene**, saving your work if asked.
 2. Click **Other Node**.
 3. Search for `CharacterBody2D`.
-4. Rename it `Hunter`.
-5. Save it as `scenes/Hunter.tscn`.
+4. Select `CharacterBody2D`, click **Create**, and rename it `Hunter`.
+5. Press **Ctrl+S** or **Cmd+S**, open `scenes`, and save it as `Hunter.tscn`.
 
 ## Check
 

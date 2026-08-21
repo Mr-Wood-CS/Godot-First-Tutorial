@@ -10,11 +10,11 @@ Create a collectible spark.
 
 ## Do This
 
-1. Create a new scene.
+1. Choose **Scene > New Scene**, saving `Main.tscn` if asked.
 2. Click **Other Node**.
 3. Search for `Area2D`.
-4. Rename it `Spark`.
-5. Save it as `scenes/Spark.tscn`.
+4. Select `Area2D`, click **Create**, and rename the root node `Spark`.
+5. Press **Ctrl+S** or **Cmd+S**, open `scenes`, and save it as `Spark.tscn`.
 
 ## Check
 

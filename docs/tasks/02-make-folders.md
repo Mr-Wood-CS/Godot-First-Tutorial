@@ -6,12 +6,14 @@ Make folders so the project files stay organised.
 
 ## Do This
 
-1. Find the **FileSystem** dock.
-2. Right-click inside the file list.
-3. Create these folders:
+The **FileSystem panel** is the box at the bottom-left of Godot. It shows everything saved in this project. The first item in it is `res://`, which means "this project folder".
+
+1. In the bottom-left **FileSystem** panel, right-click `res://`.
+2. Choose **Create New > Folder**.
+3. Type `scenes` and click **OK**.
+4. Right-click `res://` again and make each of these folders in the same way:
 
 ```text
-scenes
 scripts
 art
 audio
@@ -19,4 +21,4 @@ audio
 
 ## Check
 
-You should see `scenes`, `scripts`, `art`, and `audio` in the FileSystem dock.
+In the bottom-left panel, click the small arrow beside `res://`. You should see four folders: `scenes`, `scripts`, `art`, and `audio`.

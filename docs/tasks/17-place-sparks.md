@@ -6,13 +6,13 @@ Put collectible sparks in the arena.
 
 ## Do This
 
-1. Open `scenes/Main.tscn`.
-2. Drag `Spark.tscn` into the scene.
-3. Put the spark inside the arena.
-4. Add it to a group called `spark`.
-5. Duplicate it until you have six sparks.
-6. Put each spark in a different place.
+1. In the FileSystem panel, double-click `scenes/Main.tscn`.
+2. Drag `scenes/Spark.tscn` from the FileSystem panel into the 2D view.
+3. Use the Move tool to put the spark inside the bright border.
+4. With the spark selected, open **Node > Groups** on the right. Create a group called `spark` and tick its box.
+5. Press **Ctrl+D** or **Cmd+D** five times so there are six sparks altogether.
+6. Move each spark to a different place inside the border.
 
 ## Check
 
-Press Play. You should see several sparks. Touching one should make it disappear.
+Press **F5**. You should see six sparks. Touching one with the player should make it disappear.

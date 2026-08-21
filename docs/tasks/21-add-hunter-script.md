@@ -7,8 +7,8 @@ Make the hunter chase the player.
 ## Do This
 
 1. Select the `Hunter` root node.
-2. Attach a script called `scripts/hunter.gd`.
-3. Add this code:
+2. Click **Attach Script**, set the path to `res://scripts/hunter.gd`, and click **Create**.
+3. Replace the starter code with this:
 
 ```gdscript
 extends CharacterBody2D

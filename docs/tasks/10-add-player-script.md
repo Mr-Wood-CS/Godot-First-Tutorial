@@ -7,9 +7,10 @@ Make the player move with the keyboard.
 ## Do This
 
 1. Select the `Player` root node.
-2. Attach a new script.
-3. Save it as `scripts/player.gd`.
-4. Replace the code with this:
+2. Click the **Attach Script** button above the Scene panel (a scroll with a green plus).
+3. Next to **Path**, click the folder button, open `scripts`, and set the file name to `player.gd`.
+4. Click **Create**.
+5. Delete the starter code and type or paste this:
 
 ```gdscript
 extends CharacterBody2D
@@ -26,4 +27,4 @@ func _physics_process(_delta: float) -> void:
 
 ## Check
 
-There should be no red error text in the script editor.
+Press **Ctrl+S** or **Cmd+S**. There should be no red error marks beside the code.

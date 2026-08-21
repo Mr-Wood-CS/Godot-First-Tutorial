@@ -10,9 +10,9 @@ Make the spark pop when collected.
 
 ## Do This
 
-1. Open `scripts/spark.gd`.
-2. Replace `queue_free()` with `pop()`.
-3. Add this function:
+1. In the FileSystem panel, double-click `scripts/spark.gd`.
+2. Find `queue_free()` inside `_on_body_entered()` and change that one line to `pop()`.
+3. Add this function at the bottom of the file, with no spaces before `func`:
 
 ```gdscript
 func pop() -> void:
