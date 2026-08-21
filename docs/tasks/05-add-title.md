@@ -14,7 +14,7 @@ Show the game title on screen.
 6. Select `Label`. In the Inspector, set **Text** to `NEON DRIFT`.
 7. Open **Layout > Transform** in the Inspector. Set **Position** to x `490`, y `24`, and **Size** to x `300`, y `70`.
 8. Open **Theme Overrides > Font Sizes** and set **Font Size** to `48`.
-9. Set **Horizontal Alignment** to **Center**.
+9. Keep `Label` selected. At the top of the Inspector, type `horizontal alignment` into **Filter Properties**. Change **Horizontal Alignment** from **Left** to **Center**, then clear the filter box.
 
 ![Title checkpoint](../assets/images/task-01-project.png)
 
