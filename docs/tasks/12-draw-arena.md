@@ -32,4 +32,4 @@ func _draw() -> void:
 
 ## Check
 
-In the Scene panel, drag `ArenaArt` above `Player` but below `ColorRect`. Press **F5**. You should see a grid and bright border behind the player.
+In the Scene panel, drag `ArenaArt` above `Player`. Nodes nearer the top of the list are drawn first, so the player will appear over the grid. Press **F5**. You should see a grid and bright border behind the player.
