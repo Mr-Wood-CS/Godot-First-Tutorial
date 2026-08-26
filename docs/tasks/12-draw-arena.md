@@ -7,9 +7,11 @@ Draw a clear game area.
 ## Do This
 
 1. Open `scenes/Main.tscn`.
-2. Right-click `Main`, choose **Add Child Node**, and add a `Node2D`.
+2. In the Scene panel, right-click the root `Main` node—not `CanvasLayer`, `HUD`, or
+   `Player`—choose **Add Child Node**, and add a `Node2D`.
 3. Rename it `ArenaArt`.
-4. With `ArenaArt` selected, click **Attach Script**. Set the path to `res://scripts/arena_art.gd` and click **Create**.
+4. With `ArenaArt` selected, click **Attach Script**. In the Attach Node Script window,
+   set **Path** to exactly `res://scripts/arena_art.gd`, then click **Create**.
 5. Replace the starter code with this code:
 
 ```gdscript
@@ -32,4 +34,19 @@ func _draw() -> void:
 
 ## Check
 
-In the Scene panel, drag `ArenaArt` above `Player`. Nodes nearer the top of the list are drawn first, so the player will appear over the grid. Press **F5**. You should see a grid and bright border behind the player.
+In the Scene panel, drag `ArenaArt` above `Player`. It must remain a direct child of
+`Main`; do not drop it onto `CanvasLayer` or `HUD`. Nodes nearer the top of the list are
+drawn first, so the player will appear over the grid.
+
+Check that `res://scripts/arena_art.gd` exists in the FileSystem panel. The relevant
+scene hierarchy should be:
+
+```text
+Main
+├── CanvasLayer
+│   └── HUD
+├── ArenaArt
+└── Player
+```
+
+Press **F5**. You should see a grid and bright border behind the player.

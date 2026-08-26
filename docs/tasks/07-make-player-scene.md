@@ -17,6 +17,13 @@ Create the player ship scene.
 5. Rename the new root node to `Player`.
 6. Press **Ctrl+S** or **Cmd+S**, open the `scenes` folder, and save the file as `Player.tscn`.
 
+The scene should contain only one node for now:
+
+```text
+Player
+```
+
 ## Check
 
-You should have a scene called `Player.tscn` with a root node called `Player`.
+In the FileSystem panel, check that the file is at `res://scenes/Player.tscn`.
+It must not be inside the `scripts` folder.

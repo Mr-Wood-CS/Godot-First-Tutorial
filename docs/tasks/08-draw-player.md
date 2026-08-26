@@ -8,29 +8,28 @@ Make the player visible.
 
 1. Open `scenes/Player.tscn`.
 2. Right-click `Player`, choose **Add Child Node**, search for `Polygon2D`, and click **Create**.
-3. Select the new `Polygon2D` node in the Scene panel. In the Inspector, find the
-   **Polygon** property near the top of the **Polygon2D** section. Its value may be
-   labelled **PackedVector2Array (size 0)**, **0 points**, or simply appear empty,
-   depending on your Godot 4 version.
-4. Click the value (or its small edit/expand button), then change **Size** to `3`.
-   Expand the three entries and enter these x and y values:
+3. Keep `Polygon2D` selected. Above the 2D view, click the **Create Points** tool. Its
+   icon looks like a pencil drawing a polygon.
+4. In the 2D view, click once above the centre crosshair, once below and to its right,
+   and once below and to its left. Click the first point again to close the triangle.
+5. If the shape is too large, select the **Edit Points** tool and drag its corners. Aim
+   for a ship about 40 pixels tall and 32 pixels wide.
+6. In the Inspector, click the white box beside **Color** and choose a bright arcade colour.
 
-```text
-(0, -20)
-(16, 16)
-(-16, 16)
-```
-
-5. In the Inspector, click the white box beside **Color** and choose a bright arcade colour.
-
-!!! tip "Cannot find Polygon or Size?"
-    Make sure `Polygon2D` (not the root `Player` node) is selected, and clear any text
-    from the Inspector's **Filter Properties** box. **Polygon** is a property in the
-    **Polygon2D** section; the word **Array** may not be displayed. Click the property's
-    value to reveal the **Size** control and point entries.
+!!! tip "Cannot see the polygon tools?"
+    Make sure `Polygon2D` is selected in the Scene panel and that the **2D** workspace is
+    open. Do not add an Array in the Inspector; the points drawn in the 2D view fill the
+    `Polygon` property automatically.
 
 ![Player checkpoint](../assets/images/task-02-player.png)
 
 ## Check
+
+The Scene panel should show this exact hierarchy:
+
+```text
+Player
+└── Polygon2D
+```
 
 The 2D view should show a small triangle centred on the crosshair. Press **Ctrl+S** or **Cmd+S**.

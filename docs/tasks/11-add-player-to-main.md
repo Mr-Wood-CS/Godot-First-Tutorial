@@ -6,15 +6,34 @@ Place the player inside the game scene.
 
 ## Do This
 
-1. In the FileSystem panel, double-click `scenes/Main.tscn`.
-2. Drag `scenes/Player.tscn` from the FileSystem panel into the 2D view.
-3. Select the new `Player` node. In **Transform** in the Inspector, set **Position** to x `640`, y `360`.
-4. Select the `Player` node.
-5. At the top of the right-hand panel, click **Node**, then click **Groups**.
-6. Type `player` in the box, click **Add**, and make sure its tick box is selected.
+1. In the FileSystem panel, double-click `res://scenes/Main.tscn`.
+2. In the Scene panel, click the root `Main` node. This is important: the selected node
+   will become the parent of the player.
+3. Click **Instantiate Child Scene** above the Scene panel. Choose
+   `res://scenes/Player.tscn` and click **Open**.
+4. Select the new `Player` node. In **Transform** in the Inspector, set **Position** to
+   x `640`, y `360`.
+5. Keep `Player` selected. At the top of the right-hand dock, click **Node**, then open
+   the **Groups** tab.
+6. Click the **+** button to create a group. In the **Create New Group** window, type
+   `player`, leave **Global** off, and click **OK**.
+7. Under **Scene Groups**, check that `player` exists and that the box beside it is
+   ticked. A tick means the selected `Player` node belongs to that group.
 
-![Player in game checkpoint](../assets/images/task-02-player.png)
+!!! warning "Keep game objects out of the HUD"
+    `Player` must be a direct child of `Main`. If it appears under `CanvasLayer` or
+    `HUD`, undo the last step, select `Main`, and instantiate it again.
 
 ## Check
 
-Press **F5**. The player should appear and move with the arrow keys. Close the game window and save the scene.
+Before running, the relevant part of the Scene panel must look like this:
+
+```text
+Main
+├── CanvasLayer
+│   └── HUD
+└── Player
+```
+
+Press **F5**. The player should appear and move with the arrow keys. Close the game
+window and save the scene.
