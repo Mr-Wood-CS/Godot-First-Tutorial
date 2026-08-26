@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[node name="Player" type="CharacterBody2D"]
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, -20, 16, 16, -16, 16)

@@ -8,8 +8,12 @@ Make the player visible.
 
 1. Open `scenes/Player.tscn`.
 2. Right-click `Player`, choose **Add Child Node**, search for `Polygon2D`, and click **Create**.
-3. Select `Polygon2D`. In the Inspector, click the empty value beside **Polygon** and set its array size to `3`.
-4. Expand the array and enter these x and y values:
+3. Select the new `Polygon2D` node in the Scene panel. In the Inspector, find the
+   **Polygon** property near the top of the **Polygon2D** section. Its value may be
+   labelled **PackedVector2Array (size 0)**, **0 points**, or simply appear empty,
+   depending on your Godot 4 version.
+4. Click the value (or its small edit/expand button), then change **Size** to `3`.
+   Expand the three entries and enter these x and y values:
 
 ```text
 (0, -20)
@@ -18,6 +22,12 @@ Make the player visible.
 ```
 
 5. In the Inspector, click the white box beside **Color** and choose a bright arcade colour.
+
+!!! tip "Cannot find Polygon or Size?"
+    Make sure `Polygon2D` (not the root `Player` node) is selected, and clear any text
+    from the Inspector's **Filter Properties** box. **Polygon** is a property in the
+    **Polygon2D** section; the word **Array** may not be displayed. Click the property's
+    value to reveal the **Size** control and point entries.
 
 ![Player checkpoint](../assets/images/task-02-player.png)
 
