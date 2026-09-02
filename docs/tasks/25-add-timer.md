@@ -6,9 +6,11 @@ Make the time count down.
 
 ## Do This
 
-1. Open `scenes/Main.tscn`, select `Main`, and click its script icon. If there is no
-   script icon, complete [Task 24: Track Score](24-track-score.md) first.
+1. Open `scenes/Main.tscn`, select `Main`, and click its script icon.
 2. Replace the whole of `main.gd` with this complete version:
+
+!!! warning "No script icon?"
+    Complete [Task 24: Track Score](24-track-score.md) first.
 
 ```gdscript
 extends Node2D

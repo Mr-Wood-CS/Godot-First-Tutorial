@@ -9,10 +9,13 @@ Make the player move with the keyboard.
 1. Select the `Player` root node.
 2. Click the **Attach Script** button above the Scene panel (a scroll with a green plus).
 3. In the Attach Node Script window, set **Path** to exactly
-   `res://scripts/player.gd`. The `res://scripts/` part matters: it places the file in
-   the `scripts` folder instead of beside `project.godot` or inside `scenes`.
+   `res://scripts/player.gd`.
 4. Click **Create**.
 5. Delete the starter code and type or paste this:
+
+!!! warning "Check the script path"
+    The path must begin with `res://scripts/` so the file is saved in the `scripts`
+    folder.
 
 ```gdscript
 extends CharacterBody2D

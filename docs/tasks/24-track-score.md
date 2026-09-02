@@ -6,15 +6,8 @@ Make collecting sparks increase the score.
 
 ## Do This
 
-1. Open `scenes/Main.tscn` and select the `Main` root node.
-2. Look for a script icon beside `Main` in the Scene panel.
-    - If the icon is there, click it to open `main.gd`.
-    - If there is no script icon, click **Attach Script**, set **Path** to
-      `res://scripts/main.gd`, and click **Create**.
-    - If the icon opens `scenes/main.gd`, that is still the attached script and will
-      work. You do not need to create a second copy.
-3. Replace the whole script with the code below. It is the complete `main.gd` file
-   needed for this task; you do not need to remember or recover code from Task 18.
+1. Open `scenes/Main.tscn`, select `Main`, and click its script icon.
+2. Replace the code with this:
 
 ```gdscript
 extends Node2D

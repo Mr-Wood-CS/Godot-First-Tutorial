@@ -11,9 +11,10 @@ Make the spark pop when collected.
 ## Do This
 
 1. Open `scenes/Spark.tscn`, select the `Spark` root node, and click its script icon.
-   If there is no script icon, complete
-   [Task 16: Add Spark Collection](16-add-spark-script.md) first.
 2. Replace the whole of `spark.gd` with this complete version:
+
+!!! warning "No script icon?"
+    Complete [Task 16: Add Spark Collection](16-add-spark-script.md) first.
 
 ```gdscript
 extends Area2D

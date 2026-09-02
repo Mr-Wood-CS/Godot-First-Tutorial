@@ -34,9 +34,12 @@ func _draw() -> void:
 
 ## Check
 
-In the Scene panel, drag `ArenaArt` above `Player`. It must remain a direct child of
-`Main`; do not drop it onto `CanvasLayer` or `HUD`. Nodes nearer the top of the list are
+In the Scene panel, drag `ArenaArt` above `Player`. Nodes nearer the top of the list are
 drawn first, so the player will appear over the grid.
+
+!!! warning "Keep ArenaArt under Main"
+    `ArenaArt` must remain a direct child of `Main`. Do not drop it onto `CanvasLayer`
+    or `HUD`.
 
 Check that `res://scripts/arena_art.gd` exists in the FileSystem panel. The relevant
 scene hierarchy should be:

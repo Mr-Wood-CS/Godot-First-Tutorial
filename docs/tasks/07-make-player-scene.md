@@ -26,4 +26,6 @@ Player
 ## Check
 
 In the FileSystem panel, check that the file is at `res://scenes/Player.tscn`.
-It must not be inside the `scripts` folder.
+
+!!! warning "Save in the scenes folder"
+    `Player.tscn` must not be inside the `scripts` folder.

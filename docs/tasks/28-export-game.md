@@ -15,9 +15,12 @@ Make a build that opens without Godot.
 3. Choose **Display > Window > Size**. Check **Viewport Width** is `1280` and **Viewport Height** is `720`, then close Project Settings.
 4. Open **Project > Export**.
 5. Click **Add...** and choose the preset for the computers that will run the game, such as **Windows Desktop**, **macOS**, or **Linux**.
-6. If Godot says export templates are missing, click **Manage Export Templates**, then download and install the version that matches Godot.
-7. Click **Export Project**, make a folder called `builds`, and save the exported game inside it. Leave **Export With Debug** switched on for this classroom test.
-8. Open the exported game and test it.
+6. Click **Export Project**, make a folder called `builds`, and save the exported game inside it. Leave **Export With Debug** switched on for this classroom test.
+7. Open the exported game and test it.
+
+!!! warning "Missing export templates?"
+    Click **Manage Export Templates**, then download and install the version that
+    matches Godot.
 
 ![Export checkpoint](../assets/images/task-08-export.png)
 

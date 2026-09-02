@@ -6,7 +6,8 @@ Add a dark background to the game window.
 
 ## Do This
 
-The **Scene panel** is the list of nodes at the top-left. For this background, you do not need to add a node. Godot already has a setting for the empty space behind a 2D game.
+!!! info "No background node needed"
+    Godot already has a setting for the empty space behind a 2D game.
 
 1. Open **Project > Project Settings**. Choose **Display > Window > Size**.
 2. Set **Viewport Width** to `1280` and **Viewport Height** to `720`, then close Project Settings.

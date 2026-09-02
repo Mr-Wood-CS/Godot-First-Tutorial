@@ -7,8 +7,7 @@ Place the player inside the game scene.
 ## Do This
 
 1. In the FileSystem panel, double-click `res://scenes/Main.tscn`.
-2. In the Scene panel, click the root `Main` node. This is important: the selected node
-   will become the parent of the player.
+2. In the Scene panel, click the root `Main` node.
 3. Click **Instantiate Child Scene** above the Scene panel. Choose
    `res://scenes/Player.tscn` and click **Open**.
 4. Select the new `Player` node. In **Transform** in the Inspector, set **Position** to
