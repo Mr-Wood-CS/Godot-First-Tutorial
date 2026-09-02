@@ -10,11 +10,26 @@ Make the spark pop when collected.
 
 ## Do This
 
-1. In the FileSystem panel, double-click `scripts/spark.gd`.
-2. Find `queue_free()` inside `_on_body_entered()` and change that one line to `pop()`.
-3. Add this function at the bottom of the file, with no spaces before `func`:
+1. Open `scenes/Spark.tscn`, select the `Spark` root node, and click its script icon.
+   If there is no script icon, complete
+   [Task 16: Add Spark Collection](16-add-spark-script.md) first.
+2. Replace the whole of `spark.gd` with this complete version:
 
 ```gdscript
+extends Area2D
+
+signal collected(value: int)
+
+@export var value := 10
+
+func _ready() -> void:
+    body_entered.connect(_on_body_entered)
+
+func _on_body_entered(body: Node2D) -> void:
+    if body.is_in_group("player"):
+        collected.emit(value)
+        pop()
+
 func pop() -> void:
     var tween := create_tween()
     tween.tween_property(self, "scale", Vector2.ONE * 1.6, 0.08)

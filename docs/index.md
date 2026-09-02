@@ -42,7 +42,10 @@ Science benchmarks**:
 
 ## How To Use This Guide
 
-1. Open one task page.
+The project is split into nine lessons. Each lesson completes one clear part of the
+game and contains two to five short tasks.
+
+1. Open the next lesson in the menu, then choose its first task.
 2. Read the **Goal**.
 3. Do only the steps on that page.
 4. New Godot words are explained on the page before you need them.

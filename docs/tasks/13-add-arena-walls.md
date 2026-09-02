@@ -25,12 +25,23 @@ Add invisible wall collision to the arena.
 | `LeftWall` | x `16`, y `720` | x `8`, y `360` |
 | `RightWall` | x `16`, y `720` | x `1272`, y `360` |
 
-9. Open `res://scripts/player.gd`. Delete these two lines, because the physical walls
-   now keep the player inside the arena:
+9. Open `scenes/Player.tscn`, select the `Player` root node, and click the script icon
+   beside it. This opens the attached player script wherever it was saved. If there
+   is no script icon, return to [Task 10: Add Player Movement](10-add-player-script.md)
+   and create it first.
+10. Replace the whole script with the code below. This is the complete player script
+    at this stage. The earlier `clamp()` lines are no longer needed because the
+    physical walls now keep the player inside the arena.
 
 ```gdscript
-    global_position.x = clamp(global_position.x, 24.0, 1256.0)
-    global_position.y = clamp(global_position.y, 24.0, 696.0)
+extends CharacterBody2D
+
+@export var speed := 420.0
+
+func _physics_process(_delta: float) -> void:
+    var input_vector := Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+    velocity = input_vector * speed
+    move_and_slide()
 ```
 
 ## Check
