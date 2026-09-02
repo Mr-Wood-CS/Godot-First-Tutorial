@@ -6,6 +6,21 @@ Build a small top-down arcade game in Godot 4. The style matches the Scratch arc
 By the end, the game will have a player ship, an arena, sparks to collect, hunters to avoid, score, time, game over, feedback, and an exported build.
 </div>
 
+## What You Are Learning
+
+While making Neon Drift, you will work towards these **BGE Fourth Level Computing
+Science benchmarks**:
+
+| Benchmark | I am learning to… |
+| --- | --- |
+| **TCH 4-13a** | explain how information moves between the player, game objects and computer. |
+| **TCH 4-13b** | compare different algorithms and decide which solution is better for a task. |
+| **TCH 4-14a** | use variables, calculations, sequence, selection and repetition in GDScript. |
+| **TCH 4-14b** | explain how scenes, nodes, scripts, signals and the interface work together. |
+| **TCH 4-15a** | plan, build, test, debug, improve and evaluate a working digital solution. |
+
+[See the full learning grid and success criteria](learning-grid.md).
+
 ![Neon Drift finished game overview](assets/images/neon-drift-overview.png)
 
 ## What You Will Make

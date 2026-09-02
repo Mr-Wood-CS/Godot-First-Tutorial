@@ -49,6 +49,7 @@ markdown_extensions:
 
 nav:
   - Start here: index.md
+  - BGE Level 4 Learning Grid: learning-grid.md
   - "Lesson 1: Project Setup":
       - "1. Create The Project": tasks/01-create-project.md
       - "2. Make Project Folders": tasks/02-make-folders.md
