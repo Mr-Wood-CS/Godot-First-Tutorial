@@ -12,7 +12,10 @@ Put hunters into the arena.
 4. Open **Node > Groups** on the right. Create a group called `hunter` and tick its box.
 5. Press **Ctrl+D** or **Cmd+D** twice so there are three hunters altogether.
 6. Put the three hunters at different edges, all inside the border.
+7. Press **Ctrl+S** or **Cmd+S** to save `Main.tscn`.
 
 ## Check
 
-Press **F5**. The hunters should move toward the player.
+All three hunters should appear without yellow warning triangles. Because they are
+instances of `Hunter.tscn`, the collision shape added and saved in the Hunter scene is
+shared by all three. Press **F5**; the hunters should move toward the player.
