@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="410" viewBox="0 0 960 410" role="img" aria-label="2. Choose a circle, then set its radius">
+<style>text{font-family:Arial,sans-serif;fill:#e7edf6;font-size:20px} .title{font-size:26px;font-weight:bold} .small{font-size:17px;fill:#b8c7dc} .label{fill:#82e4ff;font-weight:bold}</style>
+<rect width="960" height="410" rx="16" fill="#172230"/>
+<text x="32" y="44" class="title">2. Choose a circle, then set its radius</text>
+
+<rect x="32" y="78" width="420" height="280" rx="10" fill="#243346"/>
+<text x="52" y="114" class="label">A · Open the Shape dropdown</text>
+<text x="52" y="161">Shape</text>
+<rect x="165" y="132" width="262" height="42" rx="5" fill="#111c29"/>
+<text x="182" y="160">&lt;empty&gt;</text><text x="397" y="160">▾</text>
+<rect x="165" y="184" width="262" height="135" rx="5" fill="#111c29"/>
+<text x="180" y="216" class="small">New RectangleShape2D</text>
+<rect x="170" y="230" width="252" height="39" rx="4" fill="#285c73"/>
+<text x="180" y="256">New CircleShape2D</text>
+<text x="180" y="298" class="small">New CapsuleShape2D</text>
+<rect x="482" y="78" width="446" height="280" rx="10" fill="#243346"/>
+<text x="504" y="114" class="label">B · Click the new resource</text>
+<text x="504" y="162">Shape</text>
+<rect x="600" y="133" width="302" height="42" rx="5" fill="#285c73"/>
+<text x="616" y="161">CircleShape2D</text>
+<text x="524" y="222">Radius</text>
+<rect x="670" y="194" width="232" height="42" rx="5" fill="#111c29"/>
+<text x="690" y="222" class="label">18</text>
+<text x="504" y="288">Press Enter to apply the value.</text>
+<text x="504" y="322" class="small">The circle is now 36 pixels wide.</text>
+
+<text x="32" y="390" class="small">Instructional diagram · Godot 4 layout may vary</text>
+</svg>

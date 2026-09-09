@@ -4,19 +4,13 @@
 
 Draw a clear game area.
 
-!!! warning "Arena appears with F6 but disappears with F5?"
-    Your arena works, but F5 is starting a different scene. Fix the project's
-    starting scene:
-
-    1. Stop the game with **F8**.
-    2. In the **FileSystem** panel (bottom-left), open the `scenes` folder.
-    3. Right-click the **file** `Main.tscn` and choose **Set As Main Scene**.
+!!! warning "Arena not Showing?"
+    
+    1. In the **FileSystem** panel (bottom-left), open the `scenes` folder.
+    2. Right-click the **file** `Main.tscn` and choose **Set As Main Scene**.
        Use the FileSystem panel, not the Scene tree.
-    4. Press **F5** again. The arena should now appear with the player.
+    3. Press **F5** again. The arena should now appear with the player.
 
-    **F5 runs the project's chosen main scene. F6 runs the currently open scene.**
-    Opening `Main.tscn` does not change what F5 runs. You do not need to rebuild
-    the arena or change its drawing code to fix this.
 
 ## Do This
 

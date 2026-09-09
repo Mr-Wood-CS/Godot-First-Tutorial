@@ -1,90 +1,109 @@
-site_name: Neon Drift Arcade
-site_description: Build a Godot arcade game one small task at a time.
-site_author: Neon Drift Workshop
-
-theme:
-  name: material
-  language: en
-  features:
-    - navigation.footer
-    - navigation.sections
-    - navigation.top
-    - content.code.copy
-    - content.code.annotate
-    - search.suggest
-    - search.highlight
-  palette:
-    - scheme: default
-      primary: blue
-      accent: light blue
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - scheme: slate
-      primary: blue
-      accent: light blue
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-  font:
-    text: Quicksand
-    code: Roboto Mono
-  icon:
-    logo: material/gamepad-variant
-
-plugins:
-  - search
-
-markdown_extensions:
-  - admonition
-  - attr_list
-  - pymdownx.details
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
+site_name: GODOT Game Design
 
 nav:
-  - Start here: index.md
-  - BGE Level 4 Learning Grid: learning-grid.md
-  - "Lesson 1: Start The Project":
-      - "1. Create The Project": tasks/01-create-project.md
-      - "2. Make Project Folders": tasks/02-make-folders.md
-      - "3. Create Main Scene": tasks/03-create-main-scene.md
-  - "Lesson 2: Prepare The Main Scene":
-      - "4. Add A Background": tasks/04-add-background.md
-      - "5. Add The Title": tasks/05-add-title.md
-      - "6. Set The Main Scene": tasks/06-set-main-scene.md
-  - "Lesson 3: Build The Player":
-      - "7. Make The Player Scene": tasks/07-make-player-scene.md
-      - "8. Draw The Player": tasks/08-draw-player.md
-      - "9. Add Player Collision": tasks/09-add-player-collision.md
-      - "10. Add Player Movement": tasks/10-add-player-script.md
-      - "11. Add Player To Main": tasks/11-add-player-to-main.md
-  - "Lesson 4: Build The Arena":
-      - "12. Draw The Arena": tasks/12-draw-arena.md
-      - "13. Add Arena Walls": tasks/13-add-arena-walls.md
-  - "Lesson 5: Add Collectibles":
-      - "14. Make A Spark Scene": tasks/14-make-spark-scene.md
-      - "15. Draw The Spark": tasks/15-draw-spark.md
-      - "16. Add Spark Collection": tasks/16-add-spark-script.md
-      - "17. Place Sparks": tasks/17-place-sparks.md
-      - "18. Print Spark Score": tasks/18-print-spark-score.md
-  - "Lesson 6: Add Enemies":
-      - "19. Make A Hunter Scene": tasks/19-make-hunter-scene.md
-      - "20. Draw The Hunter": tasks/20-draw-hunter.md
-      - "21. Add Hunter Chase": tasks/21-add-hunter-script.md
-      - "22. Place Hunters": tasks/22-place-hunters.md
-  - "Lesson 7: Build The Game Display":
-      - "23. Build The HUD": tasks/23-build-hud.md
-      - "24. Track Score": tasks/24-track-score.md
-  - "Lesson 8: Complete The Game Loop":
-      - "25. Add The Timer": tasks/25-add-timer.md
-      - "26. Add Game Over": tasks/26-add-game-over.md
-  - "Lesson 9: Polish And Export":
-      - "27. Add Feedback": tasks/27-add-feedback.md
-      - "28. Export The Game": tasks/28-export-game.md
-copyright: Copyright &copy; 2026 Neon Drift Workshop
+  - Home: index.md
+  - Neon Racer: 
+    - Introduction: index.md
+    - Part 1 - Start The Project:
+        - 1. Create The Project: tasks/01-create-project.md
+        - 2. Make Project Folders: tasks/02-make-folders.md
+        - 3. Create Main Scene: tasks/03-create-main-scene.md
+    - Part 2 - Prepare The Main Scene:
+        - 4. Add A Background: tasks/04-add-background.md
+        - 5. Add The Title: tasks/05-add-title.md
+        - 6. Set The Main Scene: tasks/06-set-main-scene.md
+    - Part 3 - Build The Player:
+        - 7. Make The Player Scene: tasks/07-make-player-scene.md
+        - 8. Draw The Player: tasks/08-draw-player.md
+        - 9. Add Player Collision: tasks/09-add-player-collision.md
+        - 10. Add Player Movement: tasks/10-add-player-script.md
+        - 11. Add Player To Main: tasks/11-add-player-to-main.md
+    - Part 4 - Build The Arena:
+        - 12. Draw The Arena: tasks/12-draw-arena.md
+        - 13. Add Arena Walls: tasks/13-add-arena-walls.md
+    - Part 5 - Add Collectibles:
+        - 14. Make A Spark Scene: tasks/14-make-spark-scene.md
+        - 15. Draw The Spark: tasks/15-draw-spark.md
+        - 16. Add Spark Collection: tasks/16-add-spark-script.md
+        - 17. Place Sparks: tasks/17-place-sparks.md
+        - 18. Print Spark Score: tasks/18-print-spark-score.md
+    - Part 6 - Add Enemies:
+        - 19. Make A Hunter Scene: tasks/19-make-hunter-scene.md
+        - 20. Draw The Hunter: tasks/20-draw-hunter.md
+        - 21. Add Hunter Chase: tasks/21-add-hunter-script.md
+        - 22. Place Hunters: tasks/22-place-hunters.md
+    - Part 7 - Build The Game Display:
+        - 23. Build The HUD: tasks/23-build-hud.md
+        - 24. Track Score: tasks/24-track-score.md
+    - Part 8 - Complete The Game Loop:
+        - 25. Add The Timer: tasks/25-add-timer.md
+        - 26. Add Game Over: tasks/26-add-game-over.md
+    - Part 9 - Polish And Export:
+        - 27. Add Feedback: tasks/27-add-feedback.md
+        - 28. Export The Game: tasks/28-export-game.md
+      
+markdown_extensions:
+      - admonition
+      - pymdownx.details
+      - def_list
+      - pymdownx.critic
+      - pymdownx.caret
+      - pymdownx.keys
+      - pymdownx.mark
+      - pymdownx.tilde
+      - attr_list
+      - md_in_html    
+      - pymdownx.emoji:
+          emoji_index: !!python/name:material.extensions.emoji.twemoji
+          emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      - pymdownx.superfences
+      - pymdownx.tabbed:
+          alternate_style: true
+      - pymdownx.highlight:
+          use_pygments: true
+          anchor_linenums: true
+          line_spans: __span
+          pygments_lang_class: true
+      - pymdownx.inlinehilite
+      - pymdownx.snippets
+      
+theme:
+  name: material
+  font:
+    text: Quicksand
+  palette:
+    scheme: default
+    primary: blue
+    accent: deep orange
+  icon:
+    logo: material/code-tags
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.indexes 
+    - navigation.path
+    - navigation.footer
+    - navigation.tabs
+plugins:
+  - search
+  - glightbox
+
+copyright: Copyright &copy; 2025 Pixel&Wood Computer Science Tuition
+
+extra_css:
+  - Styles/extra.css

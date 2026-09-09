@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-label="3. Zoom in and check the circle">
+<style>text{font-family:Arial,sans-serif;fill:#e7edf6;font-size:20px} .title{font-size:26px;font-weight:bold} .small{font-size:17px;fill:#b8c7dc} .label{fill:#82e4ff;font-weight:bold}</style>
+<rect width="960" height="420" rx="16" fill="#172230"/>
+<text x="32" y="44" class="title">3. Zoom in and check the circle</text>
+
+<rect x="32" y="77" width="430" height="288" rx="10" fill="#101a27"/>
+<path d="M247 95 V343 M55 223 H440" stroke="#445368" stroke-width="1"/>
+<polygon points="247,123 327,303 167,303" fill="#ff56c7"/>
+<circle cx="247" cy="223" r="90" fill="#45d8ff" fill-opacity="0.3" stroke="#82e4ff" stroke-width="4"/>
+<circle cx="247" cy="223" r="4" fill="white"/>
+<text x="52" y="345" class="small">Enlarged view · circle centred on ship</text>
+<text x="500" y="121" class="label">Select CollisionShape2D</text>
+<text x="500" y="162">Mouse over the 2D view → press F.</text>
+<text x="500" y="199">Use + to zoom in.</text>
+<text x="500" y="251">The circle overlaps the triangle.</text>
+<text x="500" y="286">Some corners can stick out.</text>
+<text x="500" y="338" class="small">Hidden? Toggle Polygon2D’s eye off,</text>
+<text x="500" y="361" class="small">check the circle, then toggle it on again.</text>
+
+<text x="32" y="400" class="small">Instructional diagram · Godot 4 layout may vary</text>
+</svg>

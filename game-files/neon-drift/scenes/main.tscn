@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://76j8i786231r"]
+
+[node name="Main" type="Node2D" unique_id=709973777]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1510800606]
+
+[node name="HUD" type="Control" parent="CanvasLayer" unique_id=1073648753]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+
+[node name="Label" type="Label" parent="CanvasLayer/HUD" unique_id=793771492]
+layout_mode = 0
+offset_left = 490.0
+offset_top = 24.0
+offset_right = 790.0
+offset_bottom = 94.0
+text = "NEON DRIFT"
+horizontal_alignment = 1
+vertical_alignment = 1
