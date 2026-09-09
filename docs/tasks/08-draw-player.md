@@ -14,10 +14,26 @@ Make the player visible.
    drawing a polygon. This is an icon-only button, not a button labelled “Create Points”.
 4. In the 2D view, click once above the centre crosshair, once below and to its right,
    and once below and to its left. Click the first point again to close the triangle.
-5. To adjust the triangle, click the middle of those three polygon icons (between
-   the green **+** and red **×**) and drag its corners. Aim for a ship about 40 pixels
-   tall and 32 pixels wide.
-6. In the Inspector, click the white box beside **Color** and choose a bright arcade colour.
+5. Set the triangle to exactly **32 pixels wide and 40 pixels tall**. Keep `Polygon2D`
+   selected, expand **Data** in the Inspector, then expand **Polygon** to show the
+   points you just drew. Edit the **x** and **y** values of the three entries using
+   the table below. Press **Enter** after typing each value.
+
+   | Entry | Corner | x | y |
+   | --- | --- | --- | --- |
+   | `0` | Top | `0` | `-20` |
+   | `1` | Bottom right | `16` | `20` |
+   | `2` | Bottom left | `-16` | `20` |
+
+   There should be **3** entries: closing the triangle does not need an extra point.
+   If you accidentally added more, set the array's **Size** to `3` before entering
+   these coordinates. **Size** here means the number of points, not the ship's size.
+   The width is `16 - (-16) = 32` pixels and the height is `20 - (-20) = 40` pixels.
+   Negative **y** is upwards in Godot's 2D view.
+6. Under **Node2D → Transform**, keep **Position** at `(0, 0)`, **Rotation** at `0`,
+   and **Scale** at `(1, 1)`. Keep the Polygon2D **Offset** at `(0, 0)` too. This
+   keeps the triangle centred on the player's origin at the size entered above.
+7. In the Inspector, click the white box beside **Color** and choose a bright arcade colour.
 
 !!! tip "Cannot see the polygon tools?"
     Make sure `Polygon2D` is selected in the Scene panel and that the **2D** workspace is
