@@ -7,7 +7,9 @@ Make the player visible.
 ## Do This
 
 1. Open `scenes/Player.tscn`.
+
 2. Right-click `Player`, choose **Add Child Node**, search for `Polygon2D`, and click **Create**.
+
 3. Keep `Polygon2D` selected in the Scene panel and open the **2D** workspace.
    In the toolbar above the canvas, look just to the right of **View** for three
    small polygon icons. Click the first one, marked with a **green +**, to start

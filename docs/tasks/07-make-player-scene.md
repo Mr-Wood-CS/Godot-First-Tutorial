@@ -12,7 +12,7 @@ Create the player ship scene.
 
 1. In the top menu, choose **Scene > New Scene**. Click **Save** first if Godot asks about unsaved work.
 2. Click **Other Node** in the middle of the editor.
-3. Search for `CharacterBody2D`.
+3. Search for ==CharacterBody2D==.
 4. Select `CharacterBody2D` and click **Create**.
 5. Rename the new root node to `Player`.
 6. Press **Ctrl+S** or **Cmd+S**, open the `scenes` folder, and save the file as `Player.tscn`.

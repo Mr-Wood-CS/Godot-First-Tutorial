@@ -1,3 +1,8 @@
 [gd_scene format=3 uid="uid://8etio0r5crtk"]
 
 [node name="Player" type="CharacterBody2D" unique_id=1350808821]
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=915272806]
+position = Vector2(-85, 20)
+scale = Vector2(1, 1.177665)
+polygon = PackedVector2Array(852, 247.80171, 768, 151, 689, 248)
