@@ -1,21 +1,37 @@
 # Task 14: Make A Spark Scene
 
-## Goal
-
 Create a collectible spark.
 
 ## Watch First
 
 <iframe width="100%" height="360" src="https://www.youtube.com/embed/hWIiYhfP-PE" title="YouTube video: Godot signals tutorial" allowfullscreen></iframe>
 
-## Do This
+## 1. Create the scene
 
-1. Choose **Scene > New Scene**, saving `Main.tscn` if asked.
-2. Click **Other Node**.
-3. Search for `Area2D`.
-4. Select `Area2D`, click **Create**, and rename the root node `Spark`.
-5. Press **Ctrl+S** or **Cmd+S**, open `scenes`, and save it as `Spark.tscn`.
+1. Choose **Scene > New Scene** from the top menu. Save your work if asked.
 
-## Check
+2. In the **Scene panel at the top left**, click **Other Node**.
 
-You should have a scene called `Spark.tscn` with an `Area2D` root.
+    ![Scene panel with the Other Node button at the bottom](../assets/images/scene-panel.png)
+
+3. Search for ==Area2D==, select it, and click **Create**.
+
+## 2. Name the node
+
+==Right-click== the new ==Area2D== in the Scene panel and choose **Rename**.
+
+![Scene panel menu with Rename circled](../assets/images/rename.png)
+
+*The screenshot shows Node2D. Rename your Area2D node instead.*
+
+Type ==Spark== and press Enter.
+
+## 3. Save and check
+
+1. Choose **Scene > Save Scene** from the top menu.
+
+2. In the save window, open the ==scenes== folder.
+
+3. Enter ==Spark.tscn== in the **File** box and click **Save**.
+
+The Scene panel should contain one node named ==Spark==. The FileSystem panel should show ==Spark.tscn== inside ==scenes==.

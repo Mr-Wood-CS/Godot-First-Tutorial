@@ -6,8 +6,10 @@ Make the spark disappear when the player touches it.
 
 ## Do This
 
-1. Select the `Spark` root node.
-2. Click **Attach Script**, set the path to `res://scripts/spark.gd`, and click **Create**.
+1. Select the ==Spark== root node.
+
+2. Click **Attach Script**, set the path to ==res://scripts/spark.gd==, and click **Create**.
+
 3. Replace the starter code with this:
 
 ```gdscript
@@ -27,5 +29,7 @@ func _on_body_entered(body: Node2D) -> void:
 ```
 
 ## Check
+
+Save the script.
 
 The script should have no red error text.

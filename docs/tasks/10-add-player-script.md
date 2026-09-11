@@ -6,15 +6,19 @@ Make the player move with the keyboard.
 
 ## Do This
 
-1. Select the `Player` root node.
+1. Select the ==Player== root node.
+
 2. Click the **Attach Script** button above the Scene panel (a scroll with a green plus).
+
 3. In the Attach Node Script window, set **Path** to exactly
-   `res://scripts/player.gd`.
+   ==res://scripts/player.gd==.
+
 4. Click **Create**.
+
 5. Delete the starter code and type or paste this:
 
 !!! warning "Check the script path"
-    The path must begin with `res://scripts/` so the file is saved in the `scripts`
+    The path must begin with ==res://scripts/== so the file is saved in the ==scripts==
     folder.
 
 ```gdscript
@@ -32,6 +36,6 @@ func _physics_process(_delta: float) -> void:
 
 ## Check
 
-Press **Ctrl+S** or **Cmd+S**. In the FileSystem panel, expand `scripts` and check that
-it contains `player.gd`. The Scene panel should show a script icon beside `Player`, and
+Save the script. In the FileSystem panel, expand ==scripts== and check that
+it contains ==player.gd==. The Scene panel should show a script icon beside ==Player==, and
 there should be no red error marks beside the code.

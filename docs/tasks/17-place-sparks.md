@@ -4,14 +4,25 @@
 
 Put collectible sparks in the arena.
 
-## Do This
+## 1. Place the first spark
 
-1. In the FileSystem panel, double-click `scenes/Main.tscn`.
-2. Drag `scenes/Spark.tscn` from the FileSystem panel into the 2D view.
+1. In the FileSystem panel, double-click ==scenes/Main.tscn==.
+
+2. Select Main in the Scene panel, then drag ==scenes/Spark.tscn== from the FileSystem panel into the 2D view.
+
 3. Use the Move tool to put the spark inside the bright border.
-4. With the spark selected, open **Node > Groups** on the right. Create a group called `spark` and tick its box.
-5. Press **Ctrl+D** or **Cmd+D** five times so there are six sparks altogether.
-6. Move each spark to a different place inside the border.
+
+## 2. Add it to a group
+
+With the spark selected, open **Node > Groups** on the right. Create a group called ==spark== and tick its box.
+
+## 3. Make the copies
+
+In the Scene panel, ==right-click== the spark and choose **Duplicate**.
+
+Repeat until there are ==6 sparks== altogether. Move each one to a different place inside the border.
+
+Check they all sit directly inside Main, then choose **Scene > Save Scene**.
 
 ## Check
 

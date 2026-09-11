@@ -10,8 +10,9 @@ Make the spark pop when collected.
 
 ## Do This
 
-1. Open `scenes/Spark.tscn`, select the `Spark` root node, and click its script icon.
-2. Replace the whole of `spark.gd` with this complete version:
+1. Open ==scenes/Spark.tscn==, select the ==Spark== root node, and click its script icon.
+
+2. Replace the whole of ==spark.gd== with this complete version:
 
 !!! warning "No script icon?"
     Complete [Task 16: Add Spark Collection](16-add-spark-script.md) first.
@@ -42,4 +43,6 @@ func pop() -> void:
 
 ## Check
 
-Collect a spark. It should pop before disappearing.
+Save the script.
+
+Press **F5** and collect a spark. It should pop before disappearing.

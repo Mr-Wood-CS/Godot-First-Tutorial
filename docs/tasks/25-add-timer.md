@@ -6,8 +6,9 @@ Make the time count down.
 
 ## Do This
 
-1. Open `scenes/Main.tscn`, select `Main`, and click its script icon.
-2. Replace the whole of `main.gd` with this complete version:
+1. Open ==scenes/Main.tscn==, select ==Main==, and click its script icon.
+
+2. Replace the whole of ==main.gd== with this complete version:
 
 !!! warning "No script icon?"
     Complete [Task 24: Track Score](24-track-score.md) first.
@@ -70,4 +71,6 @@ func _on_restart_pressed() -> void:
 
 ## Check
 
-Press **F5**. The time at the top-right should count down. After 60 seconds, a panel saying `TIME UP` should appear.
+Save the script.
+
+Press **F5**. The time at the top-right should count down. After 60 seconds, a panel saying ==TIME UP== should appear.

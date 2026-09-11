@@ -6,8 +6,9 @@ End the run when a hunter touches the player.
 
 ## Do This
 
-1. Open `scenes/Main.tscn`, select `Main`, and click its script icon.
-2. Replace the whole of `main.gd` with this complete version:
+1. Open ==scenes/Main.tscn==, select ==Main==, and click its script icon.
+
+2. Replace the whole of ==main.gd== with this complete version:
 
 !!! warning "No script icon?"
     Complete [Task 24: Track Score](24-track-score.md) first.
@@ -76,4 +77,6 @@ func _on_restart_pressed() -> void:
 
 ## Check
 
-Press **F5** and let a hunter touch the player. A panel saying `GAME OVER` should appear. Click **RESTART**; the scene should start again.
+Save the script.
+
+Press **F5** and let a hunter touch the player. A panel saying ==GAME OVER== should appear. Click **RESTART**; the scene should start again.

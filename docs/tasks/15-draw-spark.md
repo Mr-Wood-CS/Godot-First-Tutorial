@@ -1,29 +1,48 @@
 # Task 15: Draw The Spark
 
-## Goal
+Make the spark visible and give it a collision shape.
 
-Make the spark visible and touchable.
+## 1. Add the drawing node
 
-## Do This
+1. Open ==scenes/Spark.tscn== from the FileSystem panel.
 
-1. Open `scenes/Spark.tscn`.
-2. Add a `Polygon2D` child to `Spark`.
-3. Select it, set the **Polygon** array size to `4`, and enter these x and y values:
+2. In the Scene panel, ==right-click== Spark and choose **Add Child Node**.
 
-```text
-(0, -12)
-(12, 0)
-(0, 12)
-(-12, 0)
-```
+3. Search for ==Polygon2D== and click **Create**.
 
-4. Set **Color** to yellow.
-5. Add a `CollisionShape2D` as another child of `Spark`.
-6. Beside **Shape**, choose **New CircleShape2D**.
-7. Click the new shape and set **Radius** to `14`.
+## 2. Make a diamond
+
+Select Polygon2D. In the Inspector, open **Data**, then **Polygon**. Set the array's **Size** to ==4==.
+
+| Entry | x | y |
+| --- | --- | --- |
+| 0 | 0 | -12 |
+| 1 | 12 | 0 |
+| 2 | 0 | 12 |
+| 3 | -12 | 0 |
+
+Click the box beside **Color** and choose yellow.
+
+## 3. Add the collision circle
+
+1. ==Right-click== Spark and choose **Add Child Node**.
+
+2. Search for ==CollisionShape2D== and click **Create**.
+
+3. In the Inspector, open the dropdown beside **Shape** and choose **New CircleShape2D**.
+
+4. Click the new circle resource to open its settings. Set **Radius** to ==14==.
+
+![Example of choosing a circle shape and opening its radius settings](../assets/images/task-09-shape-inspector.svg)
+
+*The example shows radius 18. Use 14 for the spark.*
+
+## 4. Save and check
+
+Choose **Scene > Save Scene**.
 
 ![Spark checkpoint](../assets/images/task-04-spark.png)
 
-## Check
+In the 2D editor, select CollisionShape2D. You should see a circle centred over the yellow diamond.
 
-The spark should be visible and should have a collision shape.
+Both Polygon2D and CollisionShape2D should sit directly inside Spark. The collision warning should disappear once you have assigned the circle shape.

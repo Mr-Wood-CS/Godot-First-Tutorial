@@ -1,58 +1,72 @@
 # Task 8: Draw The Player
 
-## Goal
+Draw a small triangle for the player ship.
 
-Make the player visible.
+## 1. Add the drawing node
 
-## Do This
+1. In the **FileSystem panel at the bottom left**, open ==scenes/Player.tscn==.
 
-1. Open `scenes/Player.tscn`.
+2. In the **Scene panel at the top left**, ==right-click== Player and choose **Add Child Node**.
 
-2. Right-click `Player`, choose **Add Child Node**, search for `Polygon2D`, and click **Create**.
+    ![Scene panel menu with Add Child Node circled](../assets/images/add-child-node.png)
 
-3. Keep `Polygon2D` selected in the Scene panel and open the **2D** workspace.
-   In the toolbar above the canvas, look just to the right of **View** for three
-   small polygon icons. Click the first one, marked with a **green +**, to start
-   drawing a polygon. This is an icon-only button, not a button labelled “Create Points”.
-4. In the 2D view, click once above the centre crosshair, once below and to its right,
-   and once below and to its left. Click the first point again to close the triangle.
-5. Set the triangle to exactly **32 pixels wide and 40 pixels tall**. Keep `Polygon2D`
-   selected, expand **Data** in the Inspector, then expand **Polygon** to show the
-   points you just drew. Edit the **x** and **y** values of the three entries using
-   the table below. Press **Enter** after typing each value.
+    *Use this menu on Player.*
 
-   | Entry | Corner | x | y |
-   | --- | --- | --- | --- |
-   | `0` | Top | `0` | `-20` |
-   | `1` | Bottom right | `16` | `20` |
-   | `2` | Bottom left | `-16` | `20` |
+3. Search for ==Polygon2D== and click **Create**.
 
-   There should be **3** entries: closing the triangle does not need an extra point.
-   If you accidentally added more, set the array's **Size** to `3` before entering
-   these coordinates. **Size** here means the number of points, not the ship's size.
-   The width is `16 - (-16) = 32` pixels and the height is `20 - (-20) = 40` pixels.
-   Negative **y** is upwards in Godot's 2D view.
-6. Under **Node2D → Transform**, keep **Position** at `(0, 0)`, **Rotation** at `0`,
-   and **Scale** at `(1, 1)`. Keep the Polygon2D **Offset** at `(0, 0)` too. This
-   keeps the triangle centred on the player's origin at the size entered above.
-7. In the Inspector, click the white box beside **Color** and choose a bright arcade colour.
+4. Keep Polygon2D selected and click **2D** at the top of the editor.
 
-!!! tip "Cannot see the polygon tools?"
-    Make sure `Polygon2D` is selected in the Scene panel and that the **2D** workspace is
-    open. Use the toolbar above the main canvas, not the **Points / Polygons / UV / Bones**
-    tabs in the bottom Polygon panel. If that panel takes up too much space, click
-    **Polygon** at the bottom of the editor to collapse it. The points drawn in the
-    canvas fill the Inspector's **Data → Polygon** property automatically.
+## 2. Draw a triangle
+
+In the toolbar above the 2D view, find the three polygon icons just to the right of **View**. Click the first icon, marked with a **green +**.
+
+1. Click once above the centre crosshair.
+
+2. Click below and to its right, then below and to its left.
+
+3. Click your first point again to close the triangle.
+
+## 3. Set its size
+
+With Polygon2D selected, open **Data**, then **Polygon** in the **Inspector on the right**.
+
+There should be three entries. If you have more, set the array's **Size** to ==3==.
+
+Enter these values and press Enter after each one:
+
+| Entry | Corner | x | y |
+| --- | --- | --- | --- |
+| 0 | Top | 0 | -20 |
+| 1 | Bottom right | 16 | 20 |
+| 2 | Bottom left | -16 | 20 |
+
+This makes the ship 32 pixels wide and 40 pixels tall. Negative y values move a point upwards.
+
+Under **Node2D > Transform**, check these settings:
+
+| Setting | Value |
+| --- | --- |
+| Position | x: 0, y: 0 |
+| Rotation | 0 |
+| Scale | x: 1, y: 1 |
+
+Keep the Polygon2D **Offset** at x: 0, y: 0 too.
+
+## 4. Choose a colour and check
+
+In the Inspector, click the box beside **Color** and choose a bright colour.
 
 ![Player checkpoint](../assets/images/task-02-player.png)
 
-## Check
-
-The Scene panel should show this exact hierarchy:
+The Scene panel should look like this:
 
 ```text
 Player
 └── Polygon2D
 ```
 
-The 2D view should show a small triangle centred on the crosshair. Press **Ctrl+S** or **Cmd+S**.
+Your triangle should be centred on the crosshair. Choose **Scene > Save Scene**.
+
+??? tip "Cannot find the polygon tools?"
+    Select Polygon2D and open the **2D** workspace. Use the toolbar above the main view.
+    If the Polygon panel at the bottom is in the way, click its **Polygon** tab to collapse it.

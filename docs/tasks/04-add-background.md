@@ -14,15 +14,18 @@ Add a dark background to the game window.
 
     ![Project Settings showing Display and Window on the left and the Size settings on the right](../assets/images/project-setting.png)
 
-3. Set **Viewport Width** to `1280` and **Viewport Height** to `720`.
+3. Set **Viewport Width** to ==1280== and **Viewport Height** to ==720==.
+
 4. In the list on the left, click **Environment** under **Rendering**.
+
 5. On the right, click the colour box beside **Default Clear Color** and choose a very dark blue.
+
 6. Close Project Settings and save the scene.
 
 ## Check
 
-Press **F6** to run this scene, then click **Run Current Scene** if Godot asks. 
+Press **F6** to run this scene, then click **Run Current Scene** if Godot asks.
 
-The game window should be filled with dark blue. 
+The game window should be filled with dark blue.
 
 Close the game window when finished.

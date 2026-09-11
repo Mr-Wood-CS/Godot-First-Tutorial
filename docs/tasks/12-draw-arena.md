@@ -1,28 +1,40 @@
 # Task 12: Draw The Arena
 
-## Goal
+Add a grid and a bright border behind the player.
 
-Draw a clear game area.
+## 1. Add the arena node
 
-!!! warning "Arena not Showing?"
-    
-    1. In the **FileSystem** panel (bottom-left), open the `scenes` folder.
-    2. Right-click the **file** `Main.tscn` and choose **Set As Main Scene**.
-       Use the FileSystem panel, not the Scene tree.
-    3. Press **F5** again. The arena should now appear with the player.
+1. Open ==scenes/Main.tscn== from the FileSystem panel.
 
+2. In the Scene panel, ==right-click== Main and choose **Add Child Node**.
 
-## Do This
+3. Search for ==Node2D== and click **Create**.
 
-1. Open `scenes/Main.tscn`.
-2. In the Scene panel, right-click the root `Main` node—not `CanvasLayer`, `HUD`, or
-   `Player`—choose **Add Child Node**, and add a `Node2D`.
-3. Rename it `ArenaArt`. In the Inspector, expand **Transform** and set **Position**
-   to x `0`, y `0`, **Rotation** to `0`, and **Scale** to x `1`, y `1`.
-   Under **Ordering**, set **Z Index** to `-1` so the arena draws behind the player.
-4. With `ArenaArt` selected, click **Attach Script**. In the Attach Node Script window,
-   set **Path** to exactly `res://scripts/arena_art.gd`, then click **Create**.
-5. Replace **all** the starter code with this code, including the first `@tool` line:
+4. ==Right-click== the new node, choose **Rename**, and enter ==ArenaArt==.
+
+![Scene panel menu with Add Child Node circled](../assets/images/add-child-node.png)
+
+*Use this menu on Main. ArenaArt should sit directly inside Main.*
+
+## 2. Set its position and drawing order
+
+Select ArenaArt. In the Inspector, open **Transform**.
+
+| Setting | Value |
+| --- | --- |
+| Position | x: 0, y: 0 |
+| Rotation | 0 |
+| Scale | x: 1, y: 1 |
+
+Under **Ordering**, set **Z Index** to ==-1==. This puts the arena behind the player.
+
+## 3. Add the drawing script
+
+1. With ArenaArt selected, click **Attach Script** above the Scene panel.
+
+2. Set **Path** to ==res://scripts/arena_art.gd== and click **Create**.
+
+3. Replace all the starter code with this, including the first ==@tool== line:
 
 ```gdscript
 @tool
@@ -41,73 +53,35 @@ func _draw() -> void:
     draw_rect(Rect2(16, 16, 1248, 688), border_colour, false, 4.0)
 ```
 
-6. Save the script with **Ctrl+S** or **Cmd+S**, then select the `Main` scene tab and
-   save the scene too. Return to the **2D** workspace.
-7. The `@tool` line lets the grid appear in the editor as well as in the game.
-   If the editor has not updated, save everything, then choose
-   **Scene > Reload Saved Scene**.
-8. With `Main.tscn` open, press **F6** to run this specific scene. You should see the
-   grid and cyan border. Stop the game, then press **F5** to check the project's main
-   scene gives the same result.
+Save the script. Select the Main scene tab and choose **Scene > Save Scene**.
+
+## 4. Check
+
+Return to the **2D** workspace. The ==@tool== line lets the grid appear in the editor.
 
 ![Arena checkpoint](../assets/images/task-03-arena.png)
 
-## Check
+Press **F5**. You should see the grid and bright border behind the player.
 
-There is no need to drag nodes to change their drawing order: `ArenaArt` has
-**Z Index** `-1`, while the player's default is `0`.
+??? tip "The arena is missing"
+    - Open Main and press **F6**. If it works with F6, follow [Task 6](06-set-main-scene.md) to set Main as the starting scene.
+    - Check ArenaArt sits directly inside Main and has a script icon. Clicking it should open ==res://scripts/arena_art.gd==.
+    - If the script is missing, drag it from the FileSystem panel onto ArenaArt's **Script** property in the Inspector.
+    - Check Main and ArenaArt have Position (0, 0), Rotation 0, Scale (1, 1), and **Visibility > Visible** switched on.
+    - A full-screen Panel or ColorRect inside the HUD can cover the arena. Hide any extra background node you added there.
+    - Check the window size is 1280 by 720, as in [Task 4](04-add-background.md).
+    - If only the editor view is out of date, save your work and choose **Scene > Reload Saved Scene**.
+    - If Godot shows a red error, check the code against the example and show the message to your teacher.
 
-!!! warning "Keep ArenaArt under Main"
-    `ArenaArt` must remain a direct child of `Main`. Do not drop it onto `CanvasLayer`
-    or `HUD`.
-
-Check that `ArenaArt` has a script icon beside it. Click that icon: it must open
-`res://scripts/arena_art.gd` with the code above. A script file in the FileSystem
-panel does nothing unless it is attached to the node. The relevant scene hierarchy
-should be (the order of the direct children of `Main` can differ):
-
-```text
-Main
-├── CanvasLayer
-│   └── HUD
-├── ArenaArt
-└── Player
-```
-
-Press **F5**. You should see a grid and bright border behind the player.
-
-## If The Arena Is Missing When You Run
-
-1. **Check which scene is running.** Open `Main.tscn` and press **F6**. If the arena
-   appears with F6 but not F5, use the **Set As Main Scene** fix at the top of this
-   page. [Task 6](06-set-main-scene.md) explains the two run buttons in more detail.
-2. **Check the script is attached.** Select `ArenaArt` and look at its **Script**
-   property at the bottom of the Inspector. If it is empty, drag
-   `res://scripts/arena_art.gd` from the FileSystem panel onto that property.
-   Save `Main.tscn` and run again.
-3. **Check position and visibility.** `ArenaArt` must be directly under `Main`.
-   Both nodes should have Position `(0, 0)`, Rotation `0`, Scale `(1, 1)`, and
-   **Visibility > Visible** switched on. The drawing starts at the top-left of the
-   game; do not move `ArenaArt` to the player's position `(640, 360)`.
-4. **Check for something covering it.** Task 4 uses the project's background colour.
-   If you added a full-screen `ColorRect`, `Panel`, or background image under
-   `CanvasLayer` or `HUD`, temporarily hide that extra node and run again. That
-   layer draws over the arena, even when the arena's Z Index is changed.
-5. **Check the window size.** In **Project Settings > Display > Window**, confirm
-   **Viewport Width** is `1280` and **Viewport Height** is `720`, as in Task 4.
-6. **Check for script errors.** If Godot stops on a red error, copy its complete
-   message for your teacher. Make sure the function is named `_draw()` (with the
-   underscore) and the indented lines match the example.
-
-!!! note "Still missing? Check whether the drawing function runs"
-    Temporarily add this indented line directly below `func _draw() -> void:`:
+??? tip "Still missing? Check whether the drawing function runs"
+    Temporarily add this indented line directly below ==func _draw() -> void:==:
 
     ```gdscript
         print("ArenaArt drawing at ", global_position)
     ```
 
-    Save and run `Main.tscn` with **F6**, then check the **Output** panel. A message
-    showing `(0.0, 0.0)` means the drawing function ran at the expected position;
+    Save and run ==Main.tscn== with **F6**, then check the **Output** panel. A message
+    showing ==(0.0, 0.0)== means the drawing function ran at the expected position;
     check for a covering background. A different position means the node or its
     parent is offset. No message means you should recheck the attached script,
     visibility, and any errors. Remove the temporary line afterwards.

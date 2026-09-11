@@ -1,31 +1,74 @@
 # Task 23: Build The HUD
 
-## Goal
-
-Add score, time, and game-over text to the screen.
+Add score, time, and a game-over box to the screen.
 
 ## Watch First
 
 <iframe width="100%" height="360" src="https://www.youtube.com/embed/GwCiGixlqiU" title="YouTube video: Godot 4 first 2D game" allowfullscreen></iframe>
 
-## Do This
+## 1. Find the HUD
 
-1. Open `scenes/Main.tscn`.
+Open ==scenes/Main.tscn==. In the **Scene panel at the top left**, expand Main, then CanvasLayer, then HUD.
 
-    Expand `Main > CanvasLayer > HUD` in the Scene panel. Use the `HUD` Control
-    created in [Task 5](05-add-title.md). If it is missing, complete that task first.
-    Keep the existing title `Label`.
+Use the HUD you made in [Task 5](05-add-title.md). Keep its existing title Label.
 
-2. Right-click `HUD`, choose **Add Child Node**, and add a `Label`. Rename it `ScoreLabel`.
-3. Set its **Text** to `SCORE 00000`. In the Inspector, expand **Layout > Transform** and set **Position** to x `32`, y `32`. Use **Layout > Transform** for all positions and sizes below.
-4. Add another `Label` under `HUD`. Rename it `TimeLabel`, set **Text** to `TIME 60.0`, and set **Position** to x `1120`, y `32`.
-5. Add a `Panel` under `HUD`. Rename it `GameOverPanel` and set **Position** to x `440`, y `260` and **Size** to x `400`, y `200`.
-6. Add a `Label` as a child of `GameOverPanel`. Rename it `GameOverLabel`, set **Text** to `GAME OVER`, **Position** to x `100`, y `35`, and **Size** to x `200`, y `50`. Set **Horizontal Alignment** to **Center**.
-7. Add a `Button` as another child of `GameOverPanel`. Rename it `RestartButton`, set **Text** to `RESTART`, **Position** to x `125`, y `115`, and **Size** to x `150`, y `50`.
-8. Select `GameOverPanel`. In the Inspector, open **Visibility** and switch off **Visible**.
-9. Save `Main.tscn` with **Ctrl+S** or **Cmd+S**.
+## 2. Add score and time
 
-Your HUD should now have this structure (the other game nodes are omitted):
+1. ==Right-click== HUD and choose **Add Child Node**.
+
+2. Search for ==Label== and click **Create**.
+
+3. ==Right-click== the new Label, choose **Rename**, and enter ==ScoreLabel==.
+
+![Scene panel menu with Add Child Node circled](../assets/images/add-child-node.png)
+
+*Use this menu on HUD.*
+
+Select ScoreLabel. Set **Text** in the Inspector, then open **Layout > Transform** to enter its position.
+
+Repeat the steps to add a second Label named ==TimeLabel== under HUD.
+
+| Node name | Text | Position x | Position y |
+| --- | --- | --- | --- |
+| ==ScoreLabel== | ==SCORE 00000== | 32 | 32 |
+| ==TimeLabel== | ==TIME 60.0== | 1120 | 32 |
+
+## 3. Add the game-over box
+
+==Right-click== HUD, choose **Add Child Node**, and add a ==Panel==. Rename it ==GameOverPanel==.
+
+In the Inspector, open **Layout > Transform**.
+
+| Setting | x | y |
+| --- | --- | --- |
+| Position | 440 | 260 |
+| Size | 400 | 200 |
+
+## 4. Add its message and button
+
+==Right-click== GameOverPanel and use **Add Child Node** to add each node below. Rename each one, then set its **Text** in the Inspector.
+
+| Node type | Rename to | Text |
+| --- | --- | --- |
+| Label | ==GameOverLabel== | ==GAME OVER== |
+| Button | ==RestartButton== | ==RESTART== |
+
+For each node, open **Layout > Transform** and enter these values:
+
+| Node | Position x | Position y | Size x | Size y |
+| --- | --- | --- | --- | --- |
+| GameOverLabel | 100 | 35 | 200 | 50 |
+| RestartButton | 125 | 115 | 150 | 50 |
+
+Select GameOverLabel and set **Horizontal Alignment** to **Center**. You can find it using **Filter Properties** at the top of the Inspector; clear the filter afterwards.
+
+## 5. Hide the box and check
+
+Select GameOverPanel. In the Inspector, open **Visibility** and switch off **Visible**.
+
+Choose **Scene > Save Scene**.
+
+Check the names and parents match this tree. Task 24 uses these exact names, including capital letters.
 
 ```text
 Main (Node2D)
@@ -39,14 +82,8 @@ Main (Node2D)
             └── RestartButton (Button)
 ```
 
-!!! warning "Names and parents must match"
-    Task 24 finds these nodes by their exact names, including capital letters.
-    `ScoreLabel`, `TimeLabel`, and `GameOverPanel` must be directly under `HUD`.
-    Only `GameOverLabel` and `RestartButton` go inside `GameOverPanel`.
-    If a node is in the wrong place, drag it onto the correct parent in the Scene panel.
+Press **F5**. Score should appear at the top left and time at the top right. The game-over box should be hidden.
 
-![HUD checkpoint](../assets/images/task-06-score.png)
-
-## Check
-
-Press **F5**. The score should be at the top-left and the time at the top-right. The game-over box should be hidden.
+??? tip "A node is in the wrong place"
+    Drag it onto the correct parent in the Scene panel. ScoreLabel, TimeLabel and GameOverPanel belong inside HUD.
+    GameOverLabel and RestartButton belong inside GameOverPanel.

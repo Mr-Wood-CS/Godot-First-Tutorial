@@ -6,8 +6,10 @@ Make the hunter chase the player.
 
 ## Do This
 
-1. Select the `Hunter` root node.
-2. Click **Attach Script**, set the path to `res://scripts/hunter.gd`, and click **Create**.
+1. Select the ==Hunter== root node.
+
+2. Click **Attach Script**, set the path to ==res://scripts/hunter.gd==, and click **Create**.
+
 3. Replace the starter code with this:
 
 ```gdscript
@@ -37,5 +39,7 @@ func _physics_process(_delta: float) -> void:
 ```
 
 ## Check
+
+Save the script.
 
 The script should have no red error text.

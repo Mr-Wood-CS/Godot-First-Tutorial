@@ -4,18 +4,28 @@
 
 Put hunters into the arena.
 
-## Do This
+## 1. Place the first hunter
 
-1. In the FileSystem panel, double-click `scenes/Main.tscn`.
-2. Drag `scenes/Hunter.tscn` from the FileSystem panel into the 2D view.
+1. In the FileSystem panel, double-click ==scenes/Main.tscn==.
+
+2. Select Main in the Scene panel, then drag ==scenes/Hunter.tscn== from the FileSystem panel into the 2D view.
+
 3. Place it inside the border near an edge, away from the player.
-4. Open **Node > Groups** on the right. Create a group called `hunter` and tick its box.
-5. Press **Ctrl+D** or **Cmd+D** twice so there are three hunters altogether.
-6. Put the three hunters at different edges, all inside the border.
-7. Press **Ctrl+S** or **Cmd+S** to save `Main.tscn`.
+
+## 2. Add it to a group
+
+With the hunter selected, open **Node > Groups** on the right. Create a group called ==hunter== and tick its box.
+
+## 3. Make the copies
+
+In the Scene panel, ==right-click== the hunter and choose **Duplicate**.
+
+Repeat until there are ==3 hunters== altogether. Move each one to a different edge inside the border, away from the player.
+
+Check they all sit directly inside Main, then choose **Scene > Save Scene**.
 
 ## Check
 
 All three hunters should appear without yellow warning triangles. Because they are
-instances of `Hunter.tscn`, the collision shape added and saved in the Hunter scene is
+instances of ==Hunter.tscn==, the collision shape added and saved in the Hunter scene is
 shared by all three. Press **F5**; the hunters should move toward the player.
