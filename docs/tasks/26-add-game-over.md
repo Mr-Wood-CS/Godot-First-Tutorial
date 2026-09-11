@@ -27,6 +27,7 @@ var running := true
 @onready var restart_button: Button = $CanvasLayer/HUD/GameOverPanel/RestartButton
 
 func _ready() -> void:
+    game_over_panel.process_mode = Node.PROCESS_MODE_ALWAYS
     game_over_panel.visible = false
     restart_button.pressed.connect(_on_restart_pressed)
 
@@ -56,6 +57,7 @@ func end_run(message: String) -> void:
     running = false
     game_over_label.text = message
     game_over_panel.visible = true
+    get_tree().paused = true
 
 func _on_spark_collected(value: int) -> void:
     if not running:
@@ -72,6 +74,7 @@ func update_hud() -> void:
     time_label.text = "TIME %04.1f" % time_left
 
 func _on_restart_pressed() -> void:
+    get_tree().paused = false
     get_tree().reload_current_scene()
 ```
 
@@ -79,4 +82,16 @@ func _on_restart_pressed() -> void:
 
 Save the script.
 
-Press **F5** and let a hunter touch the player. A panel saying ==GAME OVER== should appear. Click **RESTART**; the scene should start again.
+Press **F5** and let a hunter touch the player.
+
+- The ==GAME OVER== panel should appear.
+- The player and hunters should stop moving.
+- Clicking **RESTART** should reset the scene, score and timer, and let you move again.
+
+Test once more by letting the timer reach zero. The same thing should happen with the message ==TIME UP==.
+
+??? tip "The timer stops but the ship still moves"
+    Replace the whole Main script with the version above. Setting ==running== to ==false== stops the timer and scoring; ==get_tree().paused = true== also stops the player and hunters.
+
+??? tip "The game-over panel is missing"
+    Stop the game and follow the panel visibility check in [Task 23](23-build-hud.md#check-the-game-over-box). If the Debugger shows a red error, check the node names and parents against Task 23.

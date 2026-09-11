@@ -62,9 +62,21 @@ For each node, open **Layout > Transform** and enter these values:
 
 Select GameOverLabel and set **Horizontal Alignment** to **Center**. You can find it using **Filter Properties** at the top of the Inspector; clear the filter afterwards.
 
-## 5. Hide the box and check
+## 5. Check the game-over box { #check-the-game-over-box }
 
-Select GameOverPanel. In the Inspector, open **Visibility** and switch off **Visible**.
+Before hiding it, click **2D** at the top of the editor. You should see the game-over box, its message and the Restart button in the centre of the game area.
+
+??? tip "The box or its contents are missing"
+    - Select GameOverPanel. Under **Layout > Transform**, check Position is x: 440, y: 260 and Size is x: 400, y: 200.
+    - Check **Visibility > Visible** is on for HUD, GameOverPanel, GameOverLabel and RestartButton. The CanvasLayer must also be visible.
+    - Check HUD's Position is x: 0, y: 0 and Size is x: 1280, y: 720.
+    - Check the names and parents match the tree below.
+
+## 6. Hide the box and save
+
+Select ==GameOverPanel==. In the Inspector, open **Visibility** and switch off **Visible** for this panel only. Leave HUD, GameOverLabel and RestartButton visible.
+
+Hiding the panel also hides its children. The script will show the panel when the game ends.
 
 Choose **Scene > Save Scene**.
 

@@ -27,6 +27,7 @@ var running := true
 @onready var restart_button: Button = $CanvasLayer/HUD/GameOverPanel/RestartButton
 
 func _ready() -> void:
+    game_over_panel.process_mode = Node.PROCESS_MODE_ALWAYS
     game_over_panel.visible = false
     restart_button.pressed.connect(_on_restart_pressed)
 
@@ -53,6 +54,7 @@ func end_run(message: String) -> void:
     running = false
     game_over_label.text = message
     game_over_panel.visible = true
+    get_tree().paused = true
 
 func _on_spark_collected(value: int) -> void:
     if not running:
@@ -66,6 +68,7 @@ func update_hud() -> void:
     time_label.text = "TIME %04.1f" % time_left
 
 func _on_restart_pressed() -> void:
+    get_tree().paused = false
     get_tree().reload_current_scene()
 ```
 
@@ -73,4 +76,13 @@ func _on_restart_pressed() -> void:
 
 Save the script.
 
-Press **F5**. The time at the top-right should count down. After 60 seconds, a panel saying ==TIME UP== should appear.
+Press **F5**. When the timer reaches zero:
+
+- The ==TIME UP== panel should appear.
+- The player and hunters should stop moving.
+- Clicking **RESTART** should start a new game with 60 seconds and a score of zero.
+
+The code pauses the game when time runs out. The panel's **Always** process mode keeps its Restart button working while the game is paused.
+
+??? tip "The timer stops but the panel is missing"
+    Stop the game and follow the panel visibility check in [Task 23](23-build-hud.md#check-the-game-over-box). Check any red error in the Debugger too: a wrong node name can stop the function before it shows the panel.
