@@ -15,12 +15,12 @@ Create the first scene the game will run.
     ![Node2D right-click menu with Rename circled](../assets/images/rename.png)
 
 3. Type `Main` and press **Enter**.
-4. In the **FileSystem** panel at the bottom left, double-click the `scenes` folder.
-5. From the top menu, choose **Scene > Save Scene**.
+
+4. From the top menu, choose **Scene > Save Scene**.
 
     ![Scene menu with Save Scene selected](../assets/images/save-scene.png)
 
-6. In the save window, enter `Main.tscn` in the **File** box and click **Save**.
+5. Double-click the `scenes` folder, enter `Main.tscn` in the **File** box, and click **Save**.
 
 ## Check
 
