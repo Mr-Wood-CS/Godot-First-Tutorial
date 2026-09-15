@@ -18,15 +18,19 @@ Add a grid and a bright border behind the player.
 
 ## 2. Set its position and drawing order
 
-Select ArenaArt. In the Inspector, open **Transform**.
+Select Main. In the Inspector, open **Transform** and check these values.
+Then select ArenaArt and set the same values:
 
 | Setting | Value |
 | --- | --- |
 | Position | x: 0, y: 0 |
 | Rotation | 0 |
 | Scale | x: 1, y: 1 |
+| Skew | 0 |
 
-Under **Ordering**, set **Z Index** to ==-1==. This puts the arena behind the player.
+Main's transform also affects ArenaArt, so both nodes must have these values.
+
+With ArenaArt selected, under **Ordering**, set **Z Index** to ==-1==. This puts the arena behind the player.
 
 ## 3. Add the drawing script
 
@@ -63,11 +67,18 @@ Return to the **2D** workspace. The ==@tool== line lets the grid appear in the e
 
 Press **F5**. You should see the grid and bright border behind the player.
 
+??? tip "The arena looks slanted or tilted"
+    - Stop the game. Select **Main**, then **ArenaArt**, and check **Transform** on each: Position (0, 0), Rotation 0, Scale (1, 1), and **Skew 0**.
+    - Rotation tilts the rectangle; Skew can make it lean like a parallelogram. ArenaArt inherits Main's transform, so checking ArenaArt alone is not enough.
+    - Make sure ArenaArt is a direct child of Main, not a child of Player.
+    - If the border is straight but individual grid lines are diagonal, compare both ==draw_line()== calls with the example. Vertical lines use the same ==x== at both ends; horizontal lines use the same ==y== at both ends.
+    - Save the scene and run again with **F6**.
+
 ??? tip "The arena is missing"
     - Open Main and press **F6**. If it works with F6, follow [Task 6](06-set-main-scene.md) to set Main as the starting scene.
     - Check ArenaArt sits directly inside Main and has a script icon. Clicking it should open ==res://scripts/arena_art.gd==.
     - If the script is missing, drag it from the FileSystem panel onto ArenaArt's **Script** property in the Inspector.
-    - Check Main and ArenaArt have Position (0, 0), Rotation 0, Scale (1, 1), and **Visibility > Visible** switched on.
+    - Check Main and ArenaArt have Position (0, 0), Rotation 0, Scale (1, 1), Skew 0, and **Visibility > Visible** switched on.
     - A full-screen Panel or ColorRect inside the HUD can cover the arena. Hide any extra background node you added there.
     - Check the window size is 1280 by 720, as in [Task 4](04-add-background.md).
     - If only the editor view is out of date, save your work and choose **Scene > Reload Saved Scene**.
@@ -82,6 +93,7 @@ Press **F5**. You should see the grid and bright border behind the player.
 
     Save and run ==Main.tscn== with **F6**, then check the **Output** panel. A message
     showing ==(0.0, 0.0)== means the drawing function ran at the expected position;
-    check for a covering background. A different position means the node or its
+    it does not check rotation, scale, or skew. Check those transforms and look for
+    a covering background. A different position means the node or its
     parent is offset. No message means you should recheck the attached script,
     visibility, and any errors. Remove the temporary line afterwards.
