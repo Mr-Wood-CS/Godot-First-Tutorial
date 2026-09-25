@@ -6,13 +6,15 @@ Make collecting sparks increase the score.
 
 ## Do This
 
-1. Check your Scene panel matches the HUD tree in [Task 23](23-build-hud.md), then save `Main.tscn`.
-2. Select the `Main` root node and click the script icon beside it. This opens `res://scripts/main.gd`, which you attached in [Task 18](18-print-spark-score.md).
-3. Replace **all** the code in `main.gd` with the complete version below. Do not paste it underneath the old code or attach it to `HUD`.
+1. Check your Scene panel matches the HUD tree in [Task 23](23-build-hud.md), then save ==Main.tscn==.
+
+2. Select the ==Main== root node and click the script icon beside it. This opens ==res://scripts/main.gd==, which you attached in [Task 18](18-print-spark-score.md).
+
+3. Replace **all** the code in ==main.gd== with the complete version below. Do not paste it underneath the old code or attach it to ==HUD==.
 
 !!! warning "No script icon beside Main?"
     Complete the script attachment steps in [Task 18](18-print-spark-score.md) first,
-    then return here. This code belongs on the `Main` **Node2D** root node.
+    then return here. This code belongs on the ==Main== **Node2D** root node.
 
 ```gdscript
 extends Node2D
@@ -53,14 +55,13 @@ func _on_restart_pressed() -> void:
 
 ## Check
 
-Save the script and check that `scripts/main.gd` appears in the FileSystem panel.
-Press **F5** and collect a spark. The score should change from `SCORE 00000` to `SCORE 00010`.
+Save the script and check that ==scripts/main.gd== appears in the FileSystem panel.
+Press **F5** and collect a spark. The score should change from ==SCORE 00000== to ==SCORE 00010==.
 
-The time stays at `TIME 60.0` until Task 25.
+The time stays at ==TIME 60.0== until Task 25.
 
-## If It Does Not Work
-
-- **`Node not found` or an error mentioning a `null instance`:** stop the game and compare your Scene panel with the tree in [Task 23](23-build-hud.md). For example, `$CanvasLayer/HUD/ScoreLabel` means `Main > CanvasLayer > HUD > ScoreLabel`. Check every name and parent, including the hidden panel and its children: this script needs all five HUD nodes.
-- **An error about a script inheriting from `Node2D`:** check that `main.gd` is attached to `Main`, not `HUD` or `CanvasLayer`.
-- **Sparks disappear but the score stays at zero:** select each spark instance in `Main.tscn` and check that the group `spark` (lowercase, singular) is ticked, as in [Task 17](17-place-sparks.md). Save the scene and run again.
-- **An error about a function already being declared:** replace the whole script with the code above. There should be only one `_ready()` and one `_on_spark_collected()`.
+??? tip "If it does not work"
+    - **==Node not found== or an error mentioning a ==null instance==:** stop the game and compare your Scene panel with the tree in [Task 23](23-build-hud.md). For example, ==$CanvasLayer/HUD/ScoreLabel== means ==Main > CanvasLayer > HUD > ScoreLabel==. Check every name and parent, including the hidden panel and its children: this script needs all five HUD nodes.
+    - **An error about a script inheriting from ==Node2D==:** check that ==main.gd== is attached to ==Main==, not ==HUD== or ==CanvasLayer==.
+    - **Sparks disappear but the score stays at zero:** select each spark instance in ==Main.tscn== and check that the group ==spark== (lowercase, singular) is ticked, as in [Task 17](17-place-sparks.md). Save the scene and run again.
+    - **An error about a function already being declared:** replace the whole script with the code above. There should be only one ==_ready()== and one ==_on_spark_collected()==.

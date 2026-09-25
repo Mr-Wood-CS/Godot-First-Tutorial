@@ -4,24 +4,32 @@
 
 Place the player inside the game scene.
 
-## Do This
+## 1. Place the player
 
-1. In the FileSystem panel, double-click `res://scenes/Main.tscn`.
-2. In the Scene panel, click the root `Main` node.
+1. In the FileSystem panel, double-click ==res://scenes/Main.tscn==.
+
+2. In the Scene panel, click the root ==Main== node.
+
 3. Click **Instantiate Child Scene** above the Scene panel. Choose
-   `res://scenes/Player.tscn` and click **Open**.
-4. Select the new `Player` node. In **Transform** in the Inspector, set **Position** to
-   x `640`, y `360`.
-5. Keep `Player` selected. At the top of the right-hand dock, click **Node**, then open
+   ==res://scenes/Player.tscn== and click **Open**.
+
+4. Select the new ==Player== node. In **Transform** in the Inspector, set **Position** to
+   x ==640==, y ==360==.
+
+## 2. Add the player group
+
+1. Keep ==Player== selected. At the top of the right-hand dock, click **Node**, then open
    the **Groups** tab.
-6. Click the **+** button to create a group. In the **Create New Group** window, type
-   `player`, leave **Global** off, and click **OK**.
-7. Under **Scene Groups**, check that `player` exists and that the box beside it is
-   ticked. A tick means the selected `Player` node belongs to that group.
+
+2. Click the **+** button to create a group. In the **Create New Group** window, type
+   ==player==, leave **Global** off, and click **OK**.
+
+3. Under **Scene Groups**, check that ==player== exists and that the box beside it is
+   ticked. A tick means the selected ==Player== node belongs to that group.
 
 !!! warning "Keep game objects out of the HUD"
-    `Player` must be a direct child of `Main`. If it appears under `CanvasLayer` or
-    `HUD`, undo the last step, select `Main`, and instantiate it again.
+    ==Player== must be a direct child of ==Main==. If it appears under ==CanvasLayer== or
+    ==HUD==, undo the last step, select ==Main==, and instantiate it again.
 
 ## Check
 

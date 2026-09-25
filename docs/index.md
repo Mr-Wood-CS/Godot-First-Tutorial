@@ -37,7 +37,7 @@ show your game, explain your code and describe how you solved a problem.
 
 ## What You Will Make
 
-- A Godot project called `NeonDrift`.
+- A Godot project called ==NeonDrift==.
 - A player ship that moves with the keyboard.
 - A neon arena with walls.
 - Sparks that disappear when collected.
