@@ -19,3 +19,7 @@ Create a collectible spark.
 ## Check
 
 You should have a scene called `Spark.tscn` with an `Area2D` root.
+
+Keep `Spark.tscn` open for Tasks 15 and 16. This is a separate scene from
+`Main.tscn`; later you will place instances of this scene in the arena.
+Select its `Spark` root and check that **Position** is `x: 0`, `y: 0`.

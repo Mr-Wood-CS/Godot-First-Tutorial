@@ -27,3 +27,14 @@ Make the spark visible and touchable.
 ## Check
 
 The spark should be visible and should have a collision shape.
+
+Select the `Spark` root before adding each child. Your scene tree should be:
+
+```text
+Spark (Area2D)
+├── Polygon2D
+└── CollisionShape2D
+```
+
+Both children should have **Position** `x: 0`, `y: 0`. Press **Ctrl+S** or
+**Cmd+S** to save `Spark.tscn` before continuing.
