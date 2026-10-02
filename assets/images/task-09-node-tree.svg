@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-label="1. Add CollisionShape2D inside Player">
+<style>text{font-family:Arial,sans-serif;fill:#e7edf6;font-size:20px} .title{font-size:26px;font-weight:bold} .small{font-size:17px;fill:#b8c7dc} .label{fill:#82e4ff;font-weight:bold}</style>
+<rect width="960" height="360" rx="16" fill="#172230"/>
+<text x="32" y="44" class="title">1. Add CollisionShape2D inside Player</text>
+
+<rect x="32" y="72" width="420" height="220" rx="10" fill="#243346"/>
+<text x="55" y="108" class="small">Scene</text>
+<text x="62" y="150">▾ Player</text>
+<path d="M82 166 V245 M82 190 H112 M82 242 H112" fill="none" stroke="#92a4bc" stroke-width="2"/>
+<text x="124" y="198">Polygon2D</text>
+<rect x="115" y="217" width="315" height="38" rx="6" fill="#285c73"/>
+<text x="124" y="243">CollisionShape2D</text>
+<text x="490" y="138" class="label">Select Player first</text>
+<text x="490" y="175">Right-click → Add Child Node</text>
+<text x="490" y="230">These two nodes line up.</text>
+<text x="490" y="261">Both belong directly to Player.</text>
+
+<text x="32" y="340" class="small">Instructional diagram · Godot 4 layout may vary</text>
+</svg>
