@@ -41,6 +41,29 @@ nav:
     - Part 9 - Polish And Export:
         - 27. Add Feedback: tasks/27-add-feedback.md
         - 28. Export The Game: tasks/28-export-game.md
+  - Updated Tasks:
+    - Overview: tasks/Updated-Tasks/index.md
+    - 1. Godot Setup and Editor: tasks/Updated-Tasks/lesson-01-godot-setup-editor.md
+    - 2. Scenes, Nodes and First Scene: tasks/Updated-Tasks/lesson-02-scenes-nodes-first-scene.md
+    - 3. First GDScript and Hello World: tasks/Updated-Tasks/lesson-03-first-gdscript-hello-world.md
+    - 4. GDScript Variables and Functions: tasks/Updated-Tasks/lesson-04-gdscript-variables-functions.md
+    - 5. Build the Player Ship: tasks/Updated-Tasks/lesson-05-build-player-ship.md
+    - 6. Horizontal Movement: tasks/Updated-Tasks/lesson-06-horizontal-movement.md
+    - 7. Input Map and WASD: tasks/Updated-Tasks/lesson-07-input-map-wasd.md
+    - 8. Custom Controls and Polish: tasks/Updated-Tasks/lesson-08-custom-controls-polish.md
+    - 9. Four-Direction Flight with Vector2: tasks/Updated-Tasks/lesson-09-four-direction-flight-vector2.md
+    - 10. Flight Feel and Screen Boundaries: tasks/Updated-Tasks/lesson-10-flight-feel-screen-boundaries.md
+    - 11. Reusable Scenes and Instancing: tasks/Updated-Tasks/lesson-11-reusable-scenes-instancing.md
+    - 12. Area2D Spark Pickups: tasks/Updated-Tasks/lesson-12-area2d-spark-pickups.md
+    - 13. Signals and Score System: tasks/Updated-Tasks/lesson-13-signals-score-system.md
+    - 14. UI Buttons: tasks/Updated-Tasks/lesson-14-ui-buttons.md
+    - 15. Node Communication and Decoupling: tasks/Updated-Tasks/lesson-15-node-communication-decoupling.md
+    - 16. Game State and Win Condition: tasks/Updated-Tasks/lesson-16-game-state-win-condition.md
+    - 17. End Screen and Scene Reset: tasks/Updated-Tasks/lesson-17-end-screen-scene-reset.md
+    - 18. Complete Game Loop: tasks/Updated-Tasks/lesson-18-complete-game-loop.md
+    - 19. Debugging and Refinement: tasks/Updated-Tasks/lesson-19-debugging-and-refinement.md
+    - 20. Level Design and Extension: tasks/Updated-Tasks/lesson-20-level-design-and-extension.md
+    - 21. Showcase and Export: tasks/Updated-Tasks/lesson-21-showcase-and-export.md
       
 markdown_extensions:
       - admonition
